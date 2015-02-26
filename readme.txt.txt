@@ -6,10 +6,10 @@ Requires at least: 3.6
 Tested up to: 4.1
 License:GPLv2
 
-This plugin is created to help customizing login page  easily  and efficiently. 
+This plugin is created to help customizing WP login page  easily  and efficiently. 
+
 
 == Description ==
-
 Login page styler helps you customize your wordpress login page  easily with  few clicks and  can change the   entire look of your login page . This plugin will not make your wordpress slow 
 
 == Plugin Features ==
@@ -38,32 +38,22 @@ Features of Login Page Styler
 * Login form border radius. 
 * Links color.
 * Custom css field. 
-* and more.
+* And more.
 
 == Installation ==
-
-1. Upload \`plugin-name.php\` to the \`/wp-content/plugins/\` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
+1. Upload \\`plugin-name.php\\` to the \\`/wp-content/plugins/\\` directory
+1. Activate the plugin through the \'Plugins\' menu in WordPress
 
 
 == Frequently Asked Questions ==
-
-There are no FAQ just yet.
-
-
-==1.0==
-* First release
-
-==Upgrade Notice ==
-
-There is no need to upgrades just yet.
-
+There are no FAQ just yet
 
 == Screenshots ==
-
-1. WP Login page customized with login page styler
-2. Another new look for login page
-
+1. Wp login  page customized by Login Page Styler
+2. Another new look for wp login page
 
 == Changelog ==
-* Not yet.
+Not yet.
+
+== Upgrade Notice ==
+There is no need to upgrade just yet.
