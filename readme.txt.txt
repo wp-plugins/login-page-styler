@@ -1,6 +1,6 @@
 === Login Page Styler ===
 Contributors: Zia Imtiaz
-Tags: login ,customizing login , login styler , login page , login custom , login logo , change background , login button , login form style ,background image, form , label, 
+Tags: login ,customizing login , login styler , login page , login custom , login logo , change background , login button , login form style ,background image, form , label. 
 Stable tag: 1.0
 Requires at least: 3.6
 Tested up to: 4.1
@@ -42,8 +42,8 @@ Features of Login Page Styler
 
 == Installation ==
 
-* Upload login-page-styler to the '/wp-content/plugins' directory.
-* Activate the plugin through the 'Plugins' menu in WordPress.
+1. Upload \`plugin-name.php\` to the \`/wp-content/plugins/\` directory
+1. Activate the plugin through the 'Plugins' menu in WordPress
 
 
 == Frequently Asked Questions ==
