@@ -38,7 +38,7 @@ Features of Login Page Styler
 * Login form border radius. 
 * Links color.
 * Custom css field. 
-* and more...
+* and more.
 
 == Installation ==
 
