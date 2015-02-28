@@ -12,7 +12,7 @@ This plugin is created to help customizing WP login page  easily  and efficientl
 == Description ==
 Login page styler helps you customize your wordpress login page  easily with  few clicks and  can change the   entire look of your login page . This plugin will not make your wordpress slow 
 
-== Plugin Features ==
+<strong>Plugin Features</strong>
 Features of Login Page Styler
 
 * On/Off switch.
