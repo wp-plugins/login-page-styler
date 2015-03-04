@@ -1,9 +1,13 @@
 === Login Page Styler ===
 Contributors: Zia Imtiaz
 Donate link: http://web-settler.com/login-page-styler/
-Tags: login ,form ,login logo, customizing login , login styler , login page , login custom , login logo , change background , login button , login form style ,background image, form , label,
-image,new logo,hide logo ,change logo, hide error, label, login form, position, form color ,form field, field , color , border , border color, border radius , login button , login button color,
-change color, tittle, logo tittle , logo link,link ,custom logo , custom link, custom login page,login input field, logo width, logo height, logo change.  
+Tags: login ,form ,login logo,branding,login error, hide error, login screen , login 
+redirect customizing login , login styler , login page , login custom , login logo ,
+change background , login button , login form style ,background image, form , label,
+image,new logo,hide logo ,change logo, hide error, label, login form, position, form color ,
+form field, field , color , border , border color, border radius , login button ,
+login button color, brand, css styling ,new look,change color, tittle, logo tittle ,
+logo link,link ,custom logo , custom link, custom login page,login input field, logo width, logo height, logo change  
 Requires at least: 3.6
 Tested up to: 4.1
 Stable tag:1.0
