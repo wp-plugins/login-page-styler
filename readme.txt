@@ -21,32 +21,32 @@ This plugin will not make your wordpress slow .</strong>
 
 <strong>Features of Login Page Styler</strong>
 
-<strong>
-* On/Off switch.
-* Hide logo.
-* Change logo.
-* Logo width height.
-* Hide error msg.
-* Hide navigation links.
-* Change label size.
-* Change label color.
-* Change remember me size .
-* Change login button color.
-* Change login button text color.
-* Change login button border radius.
-* Change login button border color.
-* Change login form border radius.
-* Change logo tittle.
-* Change logo link.
-* Login input field border color.
-* Login input field border radius.
-* Login form opacity.
-* Form position.
-* Login form border radius. 
-* Links color.
-* Custom css field. 
-* And more.
-</strong>
+
+* <strong>On/Off switch.</strong>
+* <strong>Hide logo.</strong>
+* <strong>Change logo.</strong>
+* <strong>Logo width height.</strong>
+* <strong>Hide error msg.</strong>
+* <strong>Hide navigation links.</strong>
+* <strong>Change label size.</strong>
+* <strong>Change label color.</strong>
+* <strong>Change remember me size .</strong>
+* <strong>Change login button color.</strong>
+* <strong>Change login button text color.</strong>
+* <strong>Change login button border radius.</strong>
+* <strong>Change login button border color.</strong>
+* <strong>Change login form border radius.</strong>
+* <strong>Change logo tittle.</strong>
+* <strong>Change logo link.</strong>
+* <strong>Login input field border color.</strong>
+* <strong>Login input field border radius.</strong>
+* <strong>Login form opacity.</strong>
+* <strong>Form position.</strong>
+* <strong>Login form border radius.</strong> 
+* <strong>Links color.</strong>
+* <strong>Custom css field. </strong>
+* <strong>And more.</strong>
+
 
 <strong> <a href='http://web-settler.com/login-page-styler/'>Premium version</a> </strong>
 * Supports full features.
