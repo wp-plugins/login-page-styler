@@ -46,7 +46,7 @@ This plugin will not make your wordpress slow .</strong>
 * Links color.
 * Custom css field. 
 * And more.
-</strong
+</strong>
 
 <strong> <a href='http://web-settler.com/login-page-styler/'>Premium version</a> </strong>
 * Supports full features.
