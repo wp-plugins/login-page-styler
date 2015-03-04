@@ -19,9 +19,9 @@ This plugin will not make your wordpress slow .</strong>
 
 <strong>Plugin Features</strong>
 
-<b>Features of Login Page Styler</b>
+<strong>Features of Login Page Styler</strong>
 
-<b>
+<strong>
 * On/Off switch.
 * Hide logo.
 * Change logo.
@@ -46,7 +46,8 @@ This plugin will not make your wordpress slow .</strong>
 * Links color.
 * Custom css field. 
 * And more.
-</b>
+</strong
+
 <strong> <a href='http://web-settler.com/login-page-styler/'>Premium version</a> </strong>
 * Supports full features.
 
