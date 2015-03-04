@@ -14,14 +14,14 @@ Login Page Slider is created to help you customize WP login page  easily  and ef
 
 
 ==Description==
-Login page styler helps you customize your wordpress login page  easily with  few clicks and  can change the   entire look of your login page . 
-This plugin will not make your wordpress slow . 
+<strong>Login page styler helps you customize your wordpress login page  easily with  few clicks and  can change the   entire look of your login page . 
+This plugin will not make your wordpress slow .</strong> 
 
 <strong>Plugin Features</strong>
 
-1.Features of Login Page Styler
+<b>Features of Login Page Styler</b>
 
-
+<b>
 * On/Off switch.
 * Hide logo.
 * Change logo.
@@ -46,7 +46,7 @@ This plugin will not make your wordpress slow .
 * Links color.
 * Custom css field. 
 * And more.
-
+</b>
 <strong> <a href='http://web-settler.com/login-page-styler/'>Premium version</a> </strong>
 * Supports full features.
 
