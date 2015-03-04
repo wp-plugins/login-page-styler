@@ -111,40 +111,177 @@ function lps_login_form_position(){
 	{
 		echo '<style>div#login { top: 0; right:0; bottom: 0; left:0; padding: 1% 0 0 70%; overflow:hidden; }</style>';
 	}
-	if(get_option('lps_login_form_position') == 7 && get_option('lps_login_blog_link_hide')== 1 && get_option('lps_login_nav_link_hide') == 1 )
+	
+	if(get_option('lps_login_form_position') == 7 && get_option('lps_login_blog_link_hide')== 1 && get_option('lps_login_nav_link_hide') == 1 && get_option('lps_login_logo_hide') == 1 )
 	{
-		echo '<style>div#login { top: auto; right:auto; bottom:auto; left: autos; padding: 29% 0 0 0; }</style>';
+		echo '<style>div#login { top: auto; right:auto; bottom:auto; left: autos; padding: 36% 0 0 0; }</style>';
 	}
-	
-	if(get_option('lps_login_form_position') == 7 && get_option('lps_login_blog_link_hide') != 1 && get_option('lps_login_nav_link_hide') != 1 )
+
+	if(get_option('lps_login_form_position') == 7 && get_option('lps_login_blog_link_hide') != 1 && get_option('lps_login_nav_link_hide') != 1 && get_option('lps_login_logo_hide') != 1 )
 	{
 	
-	    echo '<style>div#login { top: auto; right:auto; bottom:auto; left: autos; padding: 20% 0 0 0; }</style>';
+	    echo '<style>div#login { top: auto; right:auto; bottom:auto; left: autos; padding: 23.5% 0 0 0; }</style>';
     }
 
+    if(get_option('lps_login_form_position') == 7 && get_option('lps_login_blog_link_hide') == 1 && get_option('lps_login_nav_link_hide') != 1 && get_option('lps_login_logo_hide') == 1 )
+	{
+	
+	    echo '<style>div#login { top: auto; right:auto; bottom:auto; left: autos; padding: 36% 0 0 0; }</style>';
+    }
+
+
+    if(get_option('lps_login_form_position') == 7 && get_option('lps_login_blog_link_hide') != 1 && get_option('lps_login_nav_link_hide') == 1 && get_option('lps_login_logo_hide') == 1 )
+	{
+	
+	    echo '<style>div#login { top: auto; right:auto; bottom:auto; left: autos; padding: 32% 0 0 0; }</style>';
+    }
+
+
+    if(get_option('lps_login_form_position') == 7 && get_option('lps_login_blog_link_hide') == 1 && get_option('lps_login_nav_link_hide') != 1 && get_option('lps_login_logo_hide') !=1 )
+	{
+	
+	    echo '<style>div#login { top: auto; right:auto; bottom:auto; left: autos; padding: 26% 0 0 0; }</style>';
+    }
+
+
+    if(get_option('lps_login_form_position') == 7 && get_option('lps_login_blog_link_hide') != 1 && get_option('lps_login_nav_link_hide') == 1 && get_option('lps_login_logo_hide') !=1 )
+	{
+	
+	    echo '<style>div#login { top: auto; right:auto; bottom:auto; left: autos; padding: 26% 0 0 0; }</style>';
+    }
+
+
+
+    if(get_option('lps_login_form_position') == 7 && get_option('lps_login_blog_link_hide') != 1 && get_option('lps_login_nav_link_hide') != 1 && get_option('lps_login_logo_hide') == 1 )
+	{
+	
+	    echo '<style>div#login { top: auto; right:auto; bottom:auto; left: autos; padding: 30% 0 0 0; }</style>';
+    }
+
+
+    if(get_option('lps_login_form_position') == 7 && get_option('lps_login_blog_link_hide') == 1 && get_option('lps_login_nav_link_hide') == 1 && get_option('lps_login_logo_hide') != 1 )
+	{
+	
+	    echo '<style>div#login { top: auto; right:auto; bottom:auto; left: autos; padding: 29% 0 0 0; }</style>';
+    }
+
+
+/*
     if(get_option('lps_login_form_position') == 8 && get_option('lps_login_blog_link_hide')== 1 && get_option('lps_login_nav_link_hide') == 1 )
 	{
 		echo '<style>div#login { top: auto; right:auto; bottom:auto; left: autos; padding: 29% 70% 0 0; }</style>';
 	}
-	
-	if(get_option('lps_login_form_position') == 8 && get_option('lps_login_blog_link_hide') != 1 && get_option('lps_login_nav_link_hide') != 1 )
-	{
-	
-	    echo '<style>div#login { top: auto; right:auto; bottom:auto; left: autos; padding: 20% 70% 0 0; }</style>';
-    }
+*/	
 
-
-    if(get_option('lps_login_form_position') == 9 && get_option('lps_login_blog_link_hide')== 1 && get_option('lps_login_nav_link_hide') == 1 )
+	if(get_option('lps_login_form_position') == 8 && get_option('lps_login_blog_link_hide')== 1 && get_option('lps_login_nav_link_hide') == 1 && get_option('lps_login_logo_hide') == 1 )
 	{
-		echo '<style>div#login { top: auto; right:auto; bottom:auto; left: autos; padding: 29% 0 0 70%; }</style>';
+		echo '<style>div#login { top: auto; right:auto; bottom:auto; left: autos; padding: 36% 70% 0 0; }</style>';
 	}
-	
-	if(get_option('lps_login_form_position') == 9 && get_option('lps_login_blog_link_hide') != 1 && get_option('lps_login_nav_link_hide') != 1 )
+
+	if(get_option('lps_login_form_position') == 8 && get_option('lps_login_blog_link_hide') != 1 && get_option('lps_login_nav_link_hide') != 1 && get_option('lps_login_logo_hide') != 1 )
 	{
 	
-	    echo '<style>div#login { top: auto; right:auto; bottom:auto; left: autos; padding: 20% 0 0 70%; }</style>';
+	    echo '<style>div#login { top: auto; right:auto; bottom:auto; left: autos; padding: 23.5% 70% 0 0; }</style>';
     }
+
+    if(get_option('lps_login_form_position') == 8 && get_option('lps_login_blog_link_hide') == 1 && get_option('lps_login_nav_link_hide') != 1 && get_option('lps_login_logo_hide') == 1 )
+	{
 	
+	    echo '<style>div#login { top: auto; right:auto; bottom:auto; left: autos; padding: 36% 70% 0 0; }</style>';
+    }
+
+
+    if(get_option('lps_login_form_position') == 8 && get_option('lps_login_blog_link_hide') != 1 && get_option('lps_login_nav_link_hide') == 1 && get_option('lps_login_logo_hide') == 1 )
+	{
+	
+	    echo '<style>div#login { top: auto; right:auto; bottom:auto; left: autos; padding: 32% 70% 0 0; }</style>';
+    }
+
+
+    if(get_option('lps_login_form_position') == 8 && get_option('lps_login_blog_link_hide') == 1 && get_option('lps_login_nav_link_hide') != 1 && get_option('lps_login_logo_hide') !=1 )
+	{
+	
+	    echo '<style>div#login { top: auto; right:auto; bottom:auto; left: autos; padding: 26% 70% 0 0; }</style>';
+    }
+
+
+    if(get_option('lps_login_form_position') == 8 && get_option('lps_login_blog_link_hide') != 1 && get_option('lps_login_nav_link_hide') == 1 && get_option('lps_login_logo_hide') !=1 )
+	{
+	
+	    echo '<style>div#login { top: auto; right:auto; bottom:auto; left: autos; padding: 26% 70% 0 0; }</style>';
+    }
+
+
+
+    if(get_option('lps_login_form_position') == 8 && get_option('lps_login_blog_link_hide') != 1 && get_option('lps_login_nav_link_hide') != 1 && get_option('lps_login_logo_hide') == 1 )
+	{
+	
+	    echo '<style>div#login { top: auto; right:auto; bottom:auto; left: autos; padding: 30% 70% 0 0; }</style>';
+    }
+
+
+    if(get_option('lps_login_form_position') == 8 && get_option('lps_login_blog_link_hide') == 1 && get_option('lps_login_nav_link_hide') == 1 && get_option('lps_login_logo_hide') != 1 )
+	{
+	
+	    echo '<style>div#login { top: auto; right:auto; bottom:auto; left: autos; padding: 29% 70% 0 0; }</style>';
+
+	} 
+
+
+
+	if(get_option('lps_login_form_position') == 9 && get_option('lps_login_blog_link_hide')== 1 && get_option('lps_login_nav_link_hide') == 1 && get_option('lps_login_logo_hide') == 1 )
+	{
+		echo '<style>div#login { top: auto; right:auto; bottom:auto; left: autos; padding: 36% 0 0 70%; }</style>';
+	}
+
+	if(get_option('lps_login_form_position') == 9 && get_option('lps_login_blog_link_hide') != 1 && get_option('lps_login_nav_link_hide') != 1 && get_option('lps_login_logo_hide') != 1 )
+	{
+	
+	    echo '<style>div#login { top: auto; right:auto; bottom:auto; left: autos; padding: 23.5% 0 0 70%; }</style>';
+    }
+
+    if(get_option('lps_login_form_position') == 9 && get_option('lps_login_blog_link_hide') == 1 && get_option('lps_login_nav_link_hide') != 1 && get_option('lps_login_logo_hide') == 1 )
+	{
+	
+	    echo '<style>div#login { top: auto; right:auto; bottom:auto; left: autos; padding: 36% 0 0 70%; }</style>';
+    }
+
+
+    if(get_option('lps_login_form_position') == 9 && get_option('lps_login_blog_link_hide') != 1 && get_option('lps_login_nav_link_hide') == 1 && get_option('lps_login_logo_hide') == 1 )
+	{
+	
+	    echo '<style>div#login { top: auto; right:auto; bottom:auto; left: autos; padding: 32% 0 0 70%; }</style>';
+    }
+
+
+    if(get_option('lps_login_form_position') == 9 && get_option('lps_login_blog_link_hide') == 1 && get_option('lps_login_nav_link_hide') != 1 && get_option('lps_login_logo_hide') !=1 )
+	{
+	
+	    echo '<style>div#login { top: auto; right:auto; bottom:auto; left: autos; padding: 26% 0 0 70%; }</style>';
+    }
+
+
+    if(get_option('lps_login_form_position') == 9 && get_option('lps_login_blog_link_hide') != 1 && get_option('lps_login_nav_link_hide') == 1 && get_option('lps_login_logo_hide') !=1 )
+	{
+	
+	    echo '<style>div#login { top: auto; right:auto; bottom:auto; left: autos; padding: 26% 0 0 70%; }</style>';
+    }
+
+
+
+    if(get_option('lps_login_form_position') == 9 && get_option('lps_login_blog_link_hide') != 1 && get_option('lps_login_nav_link_hide') != 1 && get_option('lps_login_logo_hide') == 1 )
+	{
+	
+	    echo '<style>div#login { top: auto; right:auto; bottom:auto; left: autos; padding: 30% 0 0 70%; }</style>';
+    }
+
+
+    if(get_option('lps_login_form_position') == 9 && get_option('lps_login_blog_link_hide') == 1 && get_option('lps_login_nav_link_hide') == 1 && get_option('lps_login_logo_hide') != 1 )
+	{
+	
+	    echo '<style>div#login { top: auto; right:auto; bottom:auto; left: autos; padding: 29% 0 0 70%; }</style>';
+
+	}
 
 
 	else

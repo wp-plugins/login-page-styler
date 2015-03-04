@@ -16,6 +16,7 @@ Login page styler helps you customize your wordpress login page  easily with  fe
 
 1.Features of Login Page Styler
 
+
 * On/Off switch.
 * Hide logo.
 * Change logo.
@@ -41,10 +42,14 @@ Login page styler helps you customize your wordpress login page  easily with  fe
 * Custom css field. 
 * And more.
 
+* For premium version Visit:'http://web-settler.com/login-page-styler/' 
+
 == Installation ==
 1. Upload 'login-page-styler folder' to the `/wp-content/plugins/` directory
 1. Activate the plugin through the \'Plugins\' menu in WordPress
 
+==Premium Version==
+If you want to use full features of this plugin Visit: 'http://web-settler.com/login-page-styler/'
 
 == Frequently Asked Questions ==
 There are no FAQ just yet
