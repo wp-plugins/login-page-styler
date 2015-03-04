@@ -63,7 +63,7 @@ function wp_enqueue_color_picker( ) {
     <h1><?php _e('Login Page Styler')?></h1>
     <h3><strong><?php _e('This plugin is created to help customizing login page  easily  and efficiently.
     This plugin helps you style  the appearance of your login page and makes it more stylish ')?></strong></h3></br>
-    <h3><strong><?php _e('To use full features of this plugin visit : <a href=http://web-settler.com/login-page-styler/>Login Page Styler</a>'); ?></strong></h3>
+    <h3><strong><?php _e('To use full features of this plugin click :<a href=http://web-settler.com/login-page-styler/>Login Page Styler Premium</a>'); ?></strong></h3>
        <?php settings_errors(); ?>
        <form method="post" action="options.php" >
            <?php settings_fields('lps-settings-group');?>
