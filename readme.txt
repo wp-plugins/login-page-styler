@@ -1,20 +1,16 @@
 === Login Page Styler ===
 Contributors: Zia Imtiaz
 Donate link: http://web-settler.com/login-page-styler/
-Tags: login ,form ,login logo,branding,login error, hide error, login screen , login 
-redirect customizing login , login styler , login page , login custom , login logo ,
-change background , login button , login form style ,background image, form , label,
-image,new logo,hide logo ,change logo, hide error, label, login form, position, form color ,
-form field, field , color , border , border color, border radius , login button ,
-login button color, brand, css styling ,new look,change color, tittle, logo tittle ,
-logo link,link ,custom logo , custom link, custom login page,login input field, logo width, logo height, logo change  
+Tags: login,logo,brand,logo change,customizing,error hide,login error,login screen, login redirect, logo link, logo title,
+      image, chage tittle,background image,hide error,branding,custom login,redirect,form field,position, image position,
+      label,form label,change color,link,hide link,colors,images,positioning, 
 Requires at least: 3.6
 Tested up to: 4.1
 Stable tag:1.0
 License:GPLv2 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Login Page Slider is created to help you customize WP login page  easily  and efficiently. 
+Login Page Styler is created to help you customize WP login page  easily  and efficiently. 
 
 
 ==Description==
