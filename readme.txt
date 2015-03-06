@@ -3,7 +3,8 @@ Contributors: Zia Imtiaz
 Donate link: http://web-settler.com/login-page-styler/
 Tags: login,logo,brand,logo change,customizing,error hide,login error,login screen, login redirect, logo link, logo title,
       image, chage tittle,background image,hide error,branding,custom login,redirect,form field,position, image position,
-      label,form label,change color,link,hide link,colors,images,positioning,  background image, change background, customizing login, form, label.
+      label,form label,change color,link,hide link,colors,images,positioning,  background image, change background, customizing login, form, label
+       brand, brand login, custom login, customize, foolproof, inject css, login, login page, login redirect, login widget, multisite, own css, own look
 Requires at least: 3.6
 Tested up to: 4.1
 Stable tag:1.0
