@@ -1,7 +1,7 @@
 === Login Page Styler ===
 Contributors: Zia Imtiaz
 Donate link: http://web-settler.com/login-page-styler/
-Tags:  brand, brand login, custom login, customize, foolproof, inject css, login, login page, login redirect, login widget, multisite, own css, own look ,admin, branding, custom login, custom login pro, customization, customizer, error, login, login customizer, login error, login logo, login page, logo,change login page logo, custom logo, login page logo, logo changer, wordpress login logo ,login button, button ,hover coler input , input color, label,admin, branding, custom login, custom login pro, customization, customizer, error, login, login customizer, login error, login logo, login page, logo.
+Tags:  brand, brand login, custom login, customize, foolproof, inject css, login, login page, login redirect, login widget, multisite, own css, own look ,admin, branding, custom login, custom login pro, customization, customizer, error, login, login customizer, login error, login logo, login page, logo,change login page logo, custom logo, login page logo, logo changer, wordpress login logo ,login button, button ,hover coler input , input color, label,admin, branding, custom login, custom login pro, customization, customizer, error, login, login customizer, login error, login logo,hide logo,hide error,login page, logo,on ,off, on/off
 Requires at least: 3.6
 Tested up to: 4.1
 Stable tag:1.0
