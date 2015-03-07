@@ -25,6 +25,7 @@ add_action('login_head','lps_login_logo_width');
 add_action('login_head','lps_login_logo_height');
 add_action('login_head','lps_login_button_color' );
 add_action('login_head','lps_login_button_color_hover');
+add_action('login_head','lps_login_form_input_color_opacity');
 
 add_filter('login_headerurl', 'lps_login_logo_link' );
 add_filter('login_headertitle','lps_login_logo_tittle' );

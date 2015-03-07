@@ -1,11 +1,11 @@
 <?php
 /* 
  *Plugin Name: Login Page Styler
- *Plugin URI:
+ *Plugin URI:http://web-settler.com/login-page-styler/
  *Description: This plugin allows you to customize the appearance of the WordPress Login Screen as you like to see.
  *Version: 1.0
- *Author: Zia Bajwa
- *Author URI:
+ *Author: Zia Imtiaz
+ *Author URI:http://web-settler.com/login-page-styler/
  *License: GPLv2
  */
 
@@ -26,7 +26,7 @@ function lps_login_label_color(){
 
 function lps_login_form_input_color_opacity(){
 
-	echo '<style></style>';
+	echo '<style> .login form .input{background: rgba('.get_option('lps_login_form_input_color_opacity').');}</style>';
 }
 
 function lps_login_nav_color(){
