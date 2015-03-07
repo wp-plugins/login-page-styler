@@ -61,7 +61,8 @@ There are no FAQ just yet
 
 == Screenshots ==
 1. Wp login  page customized by Login Page Styler
-2. Another new look for wp login page
+2. Another new look for wp login page with login page styler
+3. Logo changed and form opacity 0 with login page styler
 
 == Changelog ==
 Not yet.
