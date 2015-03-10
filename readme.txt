@@ -1,7 +1,7 @@
 === Login Page Styler ===
 Contributors: Zia Imtiaz
 Donate link: http://web-settler.com/login-page-styler/
-Tags:  additional html, brand, brand login, custom login,,username , password, input field color, label, size, form,login form position, form css, login styling, styler , links, hide error, hide logo, change logo, custom logo, title,change title, hide link, navigation link, paswword link, back to blog, admin form, customize, foolproof, inject css, admin, Change Login, custom login, login ,login, login page, login redirect, login widget, multisite, own css, own look,custom login color, custom login logo, log in, login, login page, logo, style log in, style login, themes,
+Tags:  additional html, brand, brand login, custom login,,username , password, input field color, label, size, form,login form position, form css, login styling, styler , links, hide error, hide logo, change logo, custom logo, title,change title, hide link, navigation link, paswword link, back to blog, admin form, customize, foolproof, inject css, admin, Change Login, custom login, login ,login, login page, login redirect, login widget, multisite, own css, own look,custom login color, custom login logo,share, social , facebook, google, styling, css, html, custom form,background, background image , image ,link hover color,  log in, login, login page, logo, style log in, style login, themes,
 Requires at least: 3.6
 Tested up to: 4.1
 Stable tag:1.0
