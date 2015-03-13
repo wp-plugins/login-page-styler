@@ -58,12 +58,75 @@ function wp_enqueue_color_picker( ) {
 }
 
  function lps_settings_page(){?>
+ <style type="text/css">
+
+ .wrap
+ {
+ 	background-color: #222222;
+ 	margin: 0 0 0 0;
+ 	padding: 0 0 0 0;
+ 	font-color:white;
+ 	font-family: Comic Sans MS;
+ }
+ .wrap h1
+ {  text-align: center;
+ 	padding-top: 20px;
+ 	font-size: 4em;
+ 	color:#F1F1F1;
+ }
+ .wrap h3
+ {
+ 	font-size: 1.7em;
+ 	color:#F1F1F1;
+ 	padding-top: 5px;
+ 	padding-left: 10px;
+ }
+ .wrap th
+ {
+ 	color :#F1F1F1;
+ 	font-size: 1.2em;
+ 	padding-left: 15px;
+ 	
+ }
+ .wrap td
+ {
+ 	padding-left: 40px;
+ }
+.wrap h3 a
+{
+	text-decoration: none;
+}
+.wrap td p
+{
+	color:#F1F1F1;
+	font-size:1.2em;
+}
+.wrap p.submit
+{
+	text-align: center;
+}
+.wrap input[type=checkbox] {
+  /* All browsers except webkit*/
+  transform: scale(1.2);
+
+  /* Webkit browsers*/
+  -webkit-transform: scale(1.2);
+}
+.wrap input.button-primary
+{
+	width:10em;
+	height:3em;
+	border-radius: 10px;
+}
+
+
+ </style>
 
 <div class='wrap'> 
     <h1><?php _e('Login Page Styler')?></h1>
-    <h3><strong><?php _e('This plugin is created to help customizing login page  easily  and efficiently.
+    <h3><strong><?php _e('This plugin is created to help customizing login page  easily  and efficiently.</br></br>
     This plugin helps you style  the appearance of your login page and makes it more stylish ')?></strong></h3></br>
-    <h3><strong><?php _e('To use full features of this plugin click :<a href=http://web-settler.com/login-page-styler/>Login Page Styler Premium</a>'); ?></strong></h3>
+    <h3><strong><?php _e('To use full features of this plugin click  <a href=http://web-settler.com/login-page-styler/>Login Page Styler Premium</a>'); ?></strong></h3>
        <?php settings_errors(); ?>
        <form method="post" action="options.php" >
            <?php settings_fields('lps-settings-group');?>
@@ -76,10 +139,11 @@ function wp_enqueue_color_picker( ) {
 
 
 		    <tr valign='top'>
-				<th scope='row'><?php _e('On/Off plugin');?></th>
+				<th scope='row'><?php _e('On/Off plugin :');?></th>
 				<td><label for='lps_login_on_off'>
 				<input name="lps_login_on_off" type="checkbox" value= '1' <?php checked( 1,  get_option('lps_login_on_off') ); ?>  />
-				<p class="description"> <?php _e('Check it to On/Off plugin'); ?></p>
+				<p class="description"> <?php _e('Check it to turn plugin ON'); ?></p>
+				<p class="description"> <?php _e('UnCheck it to turn plugin OFF'); ?></p>
 				</label>
 				</td>
 			</tr>
@@ -99,8 +163,8 @@ function wp_enqueue_color_picker( ) {
 			<tr valign='top'>
 				<th scope='row'><?php _e('Hide Login Error Msg');?></th>
 				<td><label for='lps_login_logo_msg_hide'>
-				<input name="lps_login_logo_msg_hide" type="checkbox" value= '1' <?php checked( 1,  get_option('lps_login_logo_msg_hide') ); ?> />
-				<p class="description"> <?php _e('Check it to hide Login Error msg .'); ?></p>
+				<input name="lps_login_logo_msg_hide" type="checkbox" value= '1' disabled <?php checked( 1,  get_option('lps_login_logo_msg_hide') ); ?>/>
+				<p class="description"> <?php _e('Check it to hide Login Error msg.<b>Premium Version</b>'); ?></p>
 				</label>
 				</td>
 			</tr>
@@ -130,7 +194,7 @@ function wp_enqueue_color_picker( ) {
 			<tr valign="top">
 			  <th scope="row"><?php _e('Logo Link'); ?></th>
 			  <td><label for="lps_login_logo_link">
-				  <input type="text" id="lps_login_logo_link"  name="lps_login_logo_link" value="<?php echo get_option( 'lps_login_logo_link' ); ?>" disabled />
+				  <input type="text" id="lps_login_logo_link"  name="lps_login_logo_link" size="40" value="<?php echo get_option( 'lps_login_logo_link' ); ?>" disabled />
 				  <p class="description"><?php _e( 'Enter site url eg: www.google.com . <b>Premium Version </b>'); ?></p>
 				  </label>
 			 </td>
@@ -150,7 +214,7 @@ function wp_enqueue_color_picker( ) {
 		    <tr valign="top">
 			  <th scope="row"><?php _e('Login Logo'); ?></th>
 			  <td><label for="lps_login_logo">
-				  <input type="text" id="lps_login_logo"  name="lps_login_logo"  value="<?php echo get_option( 'lps_login_logo' ); ?>" disabled/>
+				  <input type="text" id="lps_login_logo"  name="lps_login_logo" size="40" value="<?php echo get_option( 'lps_login_logo' ); ?>" disabled/>
 				  <p class="description"><?php _e( 'Enter URL for logo .<b>Premium Version </b>'); ?></p>
 				 </lable>
 			 </td>
@@ -173,15 +237,16 @@ function wp_enqueue_color_picker( ) {
 				  <input type="text" id="lps_login_logo_height"  name="lps_login_logo_height"  value="<?php echo get_option( 'lps_login_logo_height' ); ?>" disabled />
 				  <p class="description"><?php _e( 'Enter logo height with px eg:10px .<b>Premium Version </b>'); ?></p>
 				 </lable>
-			 </td>
+			 </td>0
 		    </tr>
 
 
 		    <tr valign="top">
 			  <th scope="row"><?php _e('Login Body Background Image'); ?></th>
 			  <td><label for="lps_body_bg_img">
-				  <input type="text" id="lps_body_bg_img"  name="lps_body_bg_img" size"50" value="<?php echo get_option( 'lps_body_bg_img' ); ?>" />
-				  <p class="description"><?php _e( 'Enter URL for background image'); ?></p>
+				  <input type="text" id="lps_body_bg_img"  name="lps_body_bg_img" size="40" value="<?php echo get_option( 'lps_body_bg_img' ); ?>" />
+				  <p class="description"><?php _e( 'Upload image to media library and,'); ?></p>
+				  <p class="description"><?php _e( 'Enter URL for background image here'); ?></p>
 				  </label>
 			 </td>
 		    </tr>
@@ -244,15 +309,7 @@ function wp_enqueue_color_picker( ) {
 			</tr>
 
 
-			<tr>
-				<th scope='row'><?php _e('Login Form Border Color');?></th>
-				<td><label for='lps_login_form_border_color'>
-					<input type='text' class='color-picker' id='lps_login_form_border_color' name='lps_login_form_border_color' value='<?php echo get_option('lps_login_form_border_color' ); ; ?>'/>
-					<p class='description'><?php _e('Change Form  color') ;?></p>
-				</label>
-				</td>
-			</tr>
-
+			
 
 
 			<tr valign='top'>
@@ -390,7 +447,7 @@ function wp_enqueue_color_picker( ) {
 
 				</select>
 				<p class="description"> <?php _e('Select option to change Login Form Position'); ?></p>
-				<p class="description"> <?php _e('Bottom positioning works fine with hidden error msg and hidden links'); ?></p>
+				<p class="description"> <?php _e('Unlock rest of features with <b>Premium Version</b>'); ?></p>
 				</label>
 				</td>
 			</tr>
@@ -409,6 +466,8 @@ function wp_enqueue_color_picker( ) {
 
 
            </table>
+
+           <h3><strong><?php _e('To use full features of this plugin click  <a href=http://web-settler.com/login-page-styler/>Login Page Styler Premium</a>'); ?></strong></h3>
            <p class="submit">
 			<input type="submit" class="button-primary" value="<?php _e( 'Save Changes' ); ?>" />
 		</p>
