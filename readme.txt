@@ -1,7 +1,7 @@
 === Login Page Styler ===
 Contributors: Zia Imtiaz
 Donate link: http://web-settler.com/login-page-styler/
-Tags:  admin, branding, custom login, custom login pro, customization, error, login, login error, logo, chage logo ,hide error , hide logo, username ,password, login form, html, css
+Tags:  admin, branding, custom login, custom login pro, customization, error, login, login error, logo, chage logo ,hide error , hide logo, username ,password, login form, html, css, additional html, brand, brand login, custom login, customize, foolproof, inject css, login, login page, login redirect, login widget, multisite, own css, own look
 Requires at least: 3.6
 Tested up to: 4.1
 Stable tag:1.0
