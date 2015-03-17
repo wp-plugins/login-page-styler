@@ -1,7 +1,7 @@
 === Login Page Styler ===
 Contributors: Zia Imtiaz
 Donate link: http://web-settler.com/login-page-styler/
-Tags: change login page logo, custom logo, background ,background image ,form, login form, login page logo,custom login URL, login, rename, wp-login, wp-login.php,, administration, custom url, login, plugin, security, wp-admin, wp-login logo changer, wordpress login logo,add client logo to login page, admin,login logo, admin logo, change admin logo, change login logo, custom admin logo, custom login page, login logo, plugin, wp-admin,branding, custom login, custom login pro, customization, customizer, error, login, login customizer, login error, login logo, login page, logo,additional html, brand, brand login, custom login, customize, foolproof, inject css, login, login page, login redirect, login widget, multisite, own css, own look, login screen,change, custom, hide, htaccess, login,branding, login, login screen,theme,login theme,theme login,media uploader, wp-login, logout, security, stealth, url, wp-admin,social logo, social login,admin, administration, authentication, dashboard, login, logout, redirect, users,share,
+Tags: change login page logo, custom logo, background ,background image ,customisation, customise,form, login form, login page logo,custom login URL, login, rename, wp-login, wp-login.php,, administration, custom url, login, plugin, security, wp-admin, wp-login logo changer, wordpress login logo,add client logo to login page, admin,login logo, admin logo, change admin logo, change login logo, custom admin logo, custom login page, login logo, plugin, wp-admin,branding, custom login, custom login pro, customization, customizer, error, login, login customizer, login error, login logo, login page, logo,additional html, brand, brand login, custom login, customize, foolproof, inject css, login, login page, login redirect, login widget, multisite, own css, own look, login screen,change, custom, hide, htaccess, login,branding, login, login screen,theme,login theme,theme login,media uploader, wp-login, logout, security, stealth, url, wp-admin,social logo, social login,admin, administration, authentication, dashboard, login, logout, redirect, users,share,
 Requires at least: 3.6
 Tested up to: 4.1
 Stable tag:1.0
@@ -19,9 +19,11 @@ This plugin will not make your wordpress slow .</br></br></strong>
 to save your Wordpress login details.</br></br></strong>
 
 <strong>You can theme your wordpress login page  with your own styling with login page stylers setthings page its very easy to use  and design your wordpress login page with few clicks,
-You can chage  the entire look of wordpress login page again and again whenever you want a new look for your login page.   
-
-</strong> 
+You can chage  the entire look of wordpress login page again and again whenever you want a new look for your login page.</br></br>
+</strong>
+ 
+<strong>With Login Page styler you can change logo,background image,navigation links,error message  and more.
+every single thing on Wordpress login page can be customized  just think about it and its done  with login page styler</strong>
 
 <strong>Plugin Features</strong>
 
