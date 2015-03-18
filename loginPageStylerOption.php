@@ -163,7 +163,7 @@ function wp_enqueue_color_picker( ) {
 			<tr valign='top'>
 				<th scope='row'><?php _e('Hide Login Error Msg');?></th>
 				<td><label for='lps_login_logo_msg_hide'>
-				<input name="lps_login_logo_msg_hide" type="checkbox" value= '1' disabled <?php checked( 1,  get_option('lps_login_logo_msg_hide') ); ?>/>
+				<input name="lps_login_logo_msg_hide" type="checkbox" value= '1' <?php checked( 1,  get_option('lps_login_logo_msg_hide') ); ?>disabled/>
 				<p class="description"> <?php _e('Check it to hide Login Error msg.<b>Premium Version</b>'); ?></p>
 				</label>
 				</td>
@@ -174,7 +174,7 @@ function wp_enqueue_color_picker( ) {
 			<tr valign='top'>
 				<th scope='row'><?php _e('Hide Lost Password Link');?></th>
 				<td><label for='lps_login_nav_link_hide'>
-				<input disabled name="lps_login_nav_link_hide" type="checkbox" value= '1' <?php checked( 1,  get_option('lps_login_nav_link_hide') ); ?> />
+				<input name="lps_login_nav_link_hide" type="checkbox" value= '1' <?php checked( 1,  get_option('lps_login_nav_link_hide') ); ?> disabled/>
 				<p class="description"> <?php _e('Check it to hide Navigation Link.<b>Premium Version</b>'); ?></p>
 				</label>
 				</td>
@@ -315,7 +315,7 @@ function wp_enqueue_color_picker( ) {
 			<tr valign='top'>
 				<th scope='row'><?php _e('Login Form Input Field Border Radius');?></th>
 				<td><label for='lps_login_form_input_feild_border_radius'>
-					<input type='text' id='lps_login_form_input_feild_border_radius' name='lps_login_form_input_feild_border_radius' value='<?php echo get_option('lps_login_form_input_feild_border_radius' ); ; ?>'/>
+					<input type='text' id='lps_login_form_input_feild_border_radius' name='lps_login_form_input_feild_border_radius' value='<?php echo get_option('lps_login_form_input_feild_border_radius' ); ;?>'disabled/>
 					<p class="description"><?php _e( 'Add login form input field border radius with px eg:10px . <b>Premium Version</b> '); ?></p>
 				</label>
 				</td>
@@ -347,7 +347,7 @@ function wp_enqueue_color_picker( ) {
 				<th scope='row'><?php _e('Login Button Border Radius');?></th>
 				<td><label for='lps_login_button_border_radius'>
 					<input type='text' id='lps_login_button_border_radius' name='lps_login_button_border_radius' value='<?php echo get_option('lps_login_button_border_radius' ); ; ?>' disabled/>
-					<p class="description"><?php _e('Add login button border radius with px eg:10px'); ?></p>
+					<p class="description"><?php _e('Add login button border radius with px eg:10px <b>Premium Version</b>'); ?></p>
 				</label>
 				</td>
 			</tr>
@@ -390,8 +390,8 @@ function wp_enqueue_color_picker( ) {
 				<td><label for='lps_login_button_color'>
 					<input type='text' class='color-picker' id='lps_login_button_color' name='lps_login_button_color' value='<?php echo get_option('lps_login_button_color'); ?>' /> 
 					<p class='description'> <?php _e( 'Change login button color'); ?></p></br>
-					<p class='description'><?php _e('Border Color');?></p><input type='text' class='color-picker' id='lps_login_button_border_color' name='lps_login_button_border_color' value='<?php echo get_option('lps_login_button_border_color'); ?>' /></br></br>
-					<p class='description'><?php _e('Text Color');?></p><input type='text' class='color-picker' id='lps_login_button_text_color' name='lps_login_button_text_color' value='<?php echo get_option('lps_login_button_text_color'); ?>' />
+					<p class='description'><?php _e('Login Button Border Color');?></p><input type='text' class='color-picker' id='lps_login_button_border_color' name='lps_login_button_border_color' value='<?php echo get_option('lps_login_button_border_color'); ?>' /></br></br>
+					<p class='description'><?php _e('Login Button Text Color');?></p><input type='text' class='color-picker' id='lps_login_button_text_color' name='lps_login_button_text_color' value='<?php echo get_option('lps_login_button_text_color'); ?>' />
 				    </label>
 			    </td>
 			</tr>
@@ -402,8 +402,8 @@ function wp_enqueue_color_picker( ) {
 				<td><label for='lps_login_button_color_hover'>
 					<input type='text' class='color-picker' id='lps_login_button_color_hover' name='lps_login_button_color_hover' value='<?php echo get_option('lps_login_button_color_hover'); ?>'/> 
 					<p class='description'> <?php _e( 'Change login button color'); ?></p></br>
-					<p class='description'><?php _e('Border Color Hover. <b>Premium Version</b>');?></p><input type='color' class='' id='lps_login_button_border_color_hover' name='lps_login_button_border_color_hover' value='<?php echo get_option('lps_login_button_border_color_hover'); ?>' disabled /></br></br>
-					<p class='description'><?php _e('Text Color Hover. <b>Premium Version</b>');?></p><input type='color' class='' id='lps_login_button_text_color_hover' name='lps_login_button_text_color_hover' value='<?php echo get_option('lps_login_button_text_color_hover'); ?>' disabled />
+					<p class='description'><?php _e('Login Button Border Color Hover. <b>Premium Version</b>');?></p><input type='color' class='' id='lps_login_button_border_color_hover' name='lps_login_button_border_color_hover' value='<?php echo get_option('lps_login_button_border_color_hover'); ?>' disabled /></br></br>
+					<p class='description'><?php _e('Login Button Text Color Hover. <b>Premium Version</b>');?></p><input type='color' class='' id='lps_login_button_text_color_hover' name='lps_login_button_text_color_hover' value='<?php echo get_option('lps_login_button_text_color_hover'); ?>' disabled />
 				    </label>
 			    </td>
 			</tr>
@@ -457,7 +457,7 @@ function wp_enqueue_color_picker( ) {
             <tr valign="top">
 				<th scope="row"><?php _e( 'Custom Css') ?></th>
 				<td><label for="lps_login_custom_css">
-					<textarea cols="80" rows="7" id="lps_login_custom_css"  name="lps_login_custom_css" ><?php echo get_option( 'lps_login_custom_css' ); ?> </textarea>
+					<textarea cols="80" rows="7" id="lps_login_custom_css"  name="lps_login_custom_css" disabled ><?php echo get_option( 'lps_login_custom_css' ); ?> </textarea>
 					<p class='description'> <?php _e('Add styling inside this text area');?></p>
 					</label>
 				</td>
