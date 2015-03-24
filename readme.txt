@@ -59,16 +59,14 @@ every single thing on Wordpress login page can be customized  just think about i
 == Installation ==
 * Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your WordPress installation and then activate the Plugin from Plugins page.
 
-==Premium Version==
-If you want to use full features of this plugin Visit: 'http://web-settler.com/login-page-styler/'
 
 == Frequently Asked Questions ==
 There are no FAQ just yet
 
 == Screenshots ==
-1. Wp login  page customized by Login Page Styler
-2. Another new look for wp login page with login page styler
-3. Logo changed and form opacity 0 with login page styler
+1. For More Screenshots and Info Click : <a href='http://web-settler.com/login-page-styler/'>Screensots And Info</a> 
+2. Wp login  page customized by Login Page Styler
+
 
 == Changelog ==
 Not yet.
