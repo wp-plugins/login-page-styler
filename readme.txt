@@ -64,9 +64,9 @@ every single thing on Wordpress login page can be customized  just think about i
 There are no FAQ just yet
 
 == Screenshots ==
-1. For More Screenshots and Info Click : <a href='http://web-settler.com/login-page-styler/'>Screensots And Info</a> 
-2. Wp login  page customized by Login Page Styler
-
+1. New look for Wp login page with login page styler
+2. Another new look for Wp login  page,customized by Login Page Styler
+3. Settings Page
 
 == Changelog ==
 Not yet.
