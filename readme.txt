@@ -1,33 +1,8 @@
 === Login Page Styler ===
 Contributors: Zia Imtiaz
 Donate link: http://web-settler.com/login-page-styler/
-Tags:admin, administration, authentication, dashboard, login, logout, redirect, users,custom login, customization, themes, wordpress login,log, login, users, admin
-,admin custom login, admin login, admin login form, admin login page, background, background slideshow, branding, captcha, CSS, custom login, custom login page
-,custom login plugin, custom login pro, custom logo, customization, customize, customize wordpress login form, customizer, error, Facebook, form style, google plug, html
-,image, jquery, jquery form, linkedin, log in, login, login error, login form, login form plugin, logo, ogin page, plugin, role, security login, sideshow, social connect
-,social form, social share, style log in, style login, subscriber, themes, twitter, wordpress admin login, wordpress login, wp login form, wp-login, authentication
-,admin, code, login logo, login screen, login screen manager, logos, wp-login.php, admin, customize wordpress, customize wp-login.php plugin, front-end login
-,login form, login message, wordpress login design, wp login style, wp-login, wp-login plugin, avatar upload, builder, custom field registration, custom redirects
-,custom registration, custom registration form, custom registration , custom user profile, customize profile, customize registration, edit profile
-,email confirmation,front-end login, front-end register, front-end registration, front-end user,  additional html, brand, brand login, custom login, customize, foolproof
-,inject css, login, login page,login redirect, login widget, multisite, own css, own look, capcha, image on login,plugin capcha, secure code to login,Security, privicy , hack proof
-,login secure, brand login, branded login, custom login, custom login color, custom login logo, french, log in, login, login page, logo, style log in
-,style login, themes,custom login URL, login, rename, wp-login,sidebar login, social login, social media, twitter, twitter login, user login
-,widget,login form, login page logo,custom login URL, login, rename, wp-login, wp-login.php,, administration, custom url, login, plugin, security
-,wp-admin, wp-login logo changer, wordpress login logo,add client logo to login page, admin,login logo, admin logo, change admin logo, change login logo
-,custom admin logo, custom login page, login logo, plugin, wp-admin,branding, custom login, custom login pro, customization, customizer, error, login, login customizer
-,login error, login logo, login page, logo,additional html, brand, brand login, custom login, customize, foolproof, inject css, login, login page, login redirect
-,login widget, multisite, own css, own look, login screen,change, custom, hide,htaccess, login,branding,login, login screen,theme,login theme,theme login
-,media uploader, wp-login, logout, security, stealth, url, wp-admin,social logo,image ,images, jquery, link, links, login,media, page, pages, photo, photos
-,plugin,wordpress,gallery,seo,protection,protect login,post, social login,admin, administration, authentication, dashboard, login, logout, redirect, users
-,share,admin, AJAX, branding, custom login, customisation, customization, login, login logo, logo, media uploader, wp-login, admin, branding, custom login
-,custom login pro, customization, error, login, login error, logo, multi-site, redirect redirect, registration, customisation, customise, customize, dashboard
-,login page, form, login, logo,social login, custom background,custom logo,own logo ,styling ,own css , lost password, registration, responsive
-,wordpress logo chage, wordpress login, style log in, style login, theme, theme log in,  brand log in, brand login, custom log in, custom login, form, log in
-,login,  additional html, brand, brand login,customize, foolproof, inject css, login,login page, login redirect, login widget, multisite, own css
-,own look,branded login, custom login, custom login color, custom login logo,style log in, style login, themes,branding, login, login screen,login secure
-,login security,privicy ,login protection,protect,hide error login,hide logo,change logo, change login background,image ,style log in, style login, theme
-,theme log in, custom, e-mail, gravatar, log in, login, redirection, register, registration, sidebar, theme, widget
+Tags:admin, branding, custom login, custom login pro, customization, error, login, login error, logo,custom, AJAX,manage, modal, password, plugin, redirect, register, username, widget,, e-mail, gravatar, log in, redirection, register, registration, sidebar, theme, multi-site, maintenance, password, password strength, security, strength, strong, strong passwords ,users, private, protect, own css, own look, page, pages, plugin , Post, posts, script, transparent background, transparent form, wordpress, wordpress security, wp-admin , admin logo, brand, brand login, branding, captcha, change admin logo, change login logo, code script, CSS , custom admin logo, custom code, custom color, custom css, custom fields, custom login form, custom login color, custom login pro, custom logo, custom page, custom post, customisation, customise, customization, customize  , customizer, dashboard, data, erident, error, foolproof, form, form border,login screen, responsive, admin themes, change admin, customize, hide, login page,
+ themes,theme login, theme page,plugin,wordpress,gallery,seo,protection,protect login,post, social login, administration, authentication, dashboard,logout, redirect, users, share,customisation,login logo, logo, media uploader, wp-login, login pro, custom background,custom logo, own logo, styling , own css, lost password, registration, wordpress logo change, wordpress login, style log in, style login, theme, theme log in,  brand log in, brand login, custom log in, form, additional html, brand, brand login, foolproof, inject css,login redirect, multisite, own look,branded login, custom login, login screen, social login, social media, twitter, google, facebook
 
 Requires at least: 3.6
 Tested up to: 4.1
