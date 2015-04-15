@@ -1,8 +1,20 @@
 === Login Page Styler ===
 Contributors: Zia Imtiaz
 Donate link: http://web-settler.com/login-page-styler/
-Tags:admin, branding, custom login, custom login pro, customization, error, login, login error, logo,custom, AJAX,manage, modal, password, plugin, redirect, register, username, widget,, e-mail, gravatar, log in, redirection, register, registration, sidebar, theme, multi-site, maintenance, password, password strength, security, strength, strong, strong passwords ,users, private, protect, own css, own look, page, pages, plugin , Post, posts, script, transparent background, transparent form, wordpress, wordpress security, wp-admin , admin logo, brand, brand login, branding, captcha, change admin logo, change login logo, code script, CSS , custom admin logo, custom code, custom color, custom css, custom fields, custom login form, custom login color, custom login pro, custom logo, custom page, custom post, customisation, customise, customization, customize  , customizer, dashboard, data, erident, error, foolproof, form, form border,login screen, responsive, admin themes, change admin, customize, hide, login page
-,themes,theme login, theme page,plugin,wordpress,gallery,seo,protection,protect login,post, social login, administration, authentication, dashboard,logout, redirect, users, share,customisation,login logo, logo, media uploader, wp-login, login pro, custom background,custom logo, own logo, styling , own css, lost password, registration, wordpress logo change, wordpress login, style log in, style login, theme, theme log in,  brand log in, brand login, custom log in, form, additional html, brand, brand login, foolproof, inject css,login redirect, multisite, own look,branded login, custom login, login screen, social login, social media, twitter, google, facebook
+Tags:admin, branding, custom login, custom login pro, customization, error, login, login error, logo,custom, AJAX,manage,
+modal, password, plugin, redirect, register, username, widget,, e-mail, gravatar, log in, redirection, register, registration,
+sidebar, theme, multi-site, maintenance, password, password strength, security, strength, strong, strong passwords ,users,
+private, protect, own css, own look, page, pages, plugin , Post, posts, script, transparent background, transparent form,
+wordpress, wordpress security, wp-admin , admin logo, brand, brand login, branding, captcha, change admin logo, change 
+login logo, code script, CSS , custom admin logo, custom code, custom color, custom css, custom fields, custom login form,
+custom login color, custom login pro, custom logo, custom page, custom post, customisation, customise, customization,
+customize  , customizer, dashboard, data, erident, error, foolproof, form, form border,login screen, responsive,
+admin themes, change admin, customize, hide, login page,themes,theme login, theme page,plugin,wordpress,gallery,seo,
+protection,protect login,post, social login, administration, authentication, dashboard,logout, redirect, users,share,
+customisation,login logo, logo, media uploader, wp-login, login pro, custom background,custom logo, own logo, styling, 
+own css, lost password, registration, wordpress logo change, wordpress login, style log in, style login, theme, theme log in,
+brand log in, brand login, custom log in, form, additional html, brand, brand login, foolproof, inject css,login redirect,
+multisite, own look,branded login, custom login, login screen, social login, social media, twitter, google, facebook
 
 Requires at least: 3.6
 Tested up to: 4.1
