@@ -54,7 +54,7 @@ function lps_register_settings(){
 add_action( 'admin_enqueue_scripts', 'wp_enqueue_color_picker' );
 function wp_enqueue_color_picker( ) {
     wp_enqueue_style( 'wp-color-picker' );
-    wp_enqueue_script( 'wp-color-picker-script', WP_PLUGIN_URL.'/login-page-styler/loginPageStyler.js', array( 'wp-color-picker' ), false, true );
+    wp_enqueue_script( 'wp-color-picker-script', WP_PLUGIN_URL .'/login-page-styler/loginPageStyler.js', array( 'wp-color-picker' ), false, true );
 }
 
  function lps_settings_page(){?>
