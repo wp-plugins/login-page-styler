@@ -270,7 +270,7 @@ function wp_enqueue_color_picker( ) {
 		    <tr valign="top">
 			  <th scope="row"><?php _e( 'Background Color' ); ?></th>
 			  <td><label for="lps_login_background_color">
-				  <input type="text" class="color-picker" id="lps_login_background_color"  name="lps_login_background_color" value="<?php echo get_option( 'lps_login_background_color' ); ?>" />
+				  <input type="text" class="color_picker" id="lps_login_background_color"  name="lps_login_background_color" value="<?php echo get_option( 'lps_login_background_color' ); ?>" />
 				  <p class="description"><?php _e( 'Change background color'); ?></p>
 				  </label>
 			 </td>
@@ -281,7 +281,7 @@ function wp_enqueue_color_picker( ) {
 			<tr>
 				<th scope='row'><?php _e('Login Form Color');?></th>
 				<td><label for='lps_login_form_color'>
-					<input type='text' class='color-picker' id='lps_login_form_color' name='lps_login_form_color' value='<?php echo get_option('lps_login_form_color' ); ; ?>'/>
+					<input type='text' class='color_picker' id='lps_login_form_color' name='lps_login_form_color' value='<?php echo get_option('lps_login_form_color' ); ; ?>'/>
 					<p class='description'><?php _e('Change Form color') ;?></p>
 				</label>
 				</td>
@@ -378,7 +378,7 @@ function wp_enqueue_color_picker( ) {
 			<tr valign='top'>
 				<th scope='row'><?php _e('Label Color');?></th>
 				<td><label for='lps_login_label_color'>
-					<input type='text' class='color-picker' id='lps_login_label_color' name='lps_login_label_color' value='<?php echo get_option('lps_login_label_color'); ?>' /> 
+					<input type='text' class='color_picker' id='lps_login_label_color' name='lps_login_label_color' value='<?php echo get_option('lps_login_label_color'); ?>' /> 
 					<p class='description'> <?php _e( 'Change form label color'); ?></p>
 				    </label>
 			    </td>
@@ -388,10 +388,10 @@ function wp_enqueue_color_picker( ) {
             <tr valign='top'>
 				<th scope='row'><?php _e('Login Button Color');?></th>
 				<td><label for='lps_login_button_color'>
-					<input type='text' class='color-picker' id='lps_login_button_color' name='lps_login_button_color' value='<?php echo get_option('lps_login_button_color'); ?>' /> 
+					<input type='text' class='color_picker' id='lps_login_button_color' name='lps_login_button_color' value='<?php echo get_option('lps_login_button_color'); ?>' /> 
 					<p class='description'> <?php _e( 'Change login button color'); ?></p></br>
-					<p class='description'><?php _e('Login Button Border Color');?></p><input type='text' class='color-picker' id='lps_login_button_border_color' name='lps_login_button_border_color' value='<?php echo get_option('lps_login_button_border_color'); ?>' /></br></br>
-					<p class='description'><?php _e('Login Button Text Color');?></p><input type='text' class='color-picker' id='lps_login_button_text_color' name='lps_login_button_text_color' value='<?php echo get_option('lps_login_button_text_color'); ?>' />
+					<p class='description'><?php _e('Login Button Border Color');?></p><input type='text' class='color_picker' id='lps_login_button_border_color' name='lps_login_button_border_color' value='<?php echo get_option('lps_login_button_border_color'); ?>' /></br></br>
+					<p class='description'><?php _e('Login Button Text Color');?></p><input type='text' class='color_picker' id='lps_login_button_text_color' name='lps_login_button_text_color' value='<?php echo get_option('lps_login_button_text_color'); ?>' />
 				    </label>
 			    </td>
 			</tr>
@@ -400,7 +400,7 @@ function wp_enqueue_color_picker( ) {
 			<tr valign='top'>
 				<th scope='row'><?php _e('Login Button Color Hover');?></th>
 				<td><label for='lps_login_button_color_hover'>
-					<input type='text' class='color-picker' id='lps_login_button_color_hover' name='lps_login_button_color_hover' value='<?php echo get_option('lps_login_button_color_hover'); ?>'/> 
+					<input type='text' class='color_picker' id='lps_login_button_color_hover' name='lps_login_button_color_hover' value='<?php echo get_option('lps_login_button_color_hover'); ?>'/> 
 					<p class='description'> <?php _e( 'Change login button color'); ?></p></br>
 					<p class='description'><?php _e('Login Button Border Color Hover. <b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a></b>');?></p><input type='color' class='' id='lps_login_button_border_color_hover' name='lps_login_button_border_color_hover' value='<?php echo get_option('lps_login_button_border_color_hover'); ?>' disabled /></br></br>
 					<p class='description'><?php _e('Login Button Text Color Hover. <b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a></b>');?></p><input type='color' class='' id='lps_login_button_text_color_hover' name='lps_login_button_text_color_hover' value='<?php echo get_option('lps_login_button_text_color_hover'); ?>' disabled />
@@ -413,7 +413,7 @@ function wp_enqueue_color_picker( ) {
 			<tr vlaign='top'>
 				<th scope='row'><?php _e('Navigation Links Color');?></th>
 				<td><label for='lps_login_nav_color'>
-					<input type='text' class='color-picker' id='lps_login_nav_color' name='lps_login_nav_color' value='<?php echo get_option('lps_login_nav_color' ); ; ?>'/>
+					<input type='text' class='color_picker' id='lps_login_nav_color' name='lps_login_nav_color' value='<?php echo get_option('lps_login_nav_color' ); ; ?>'/>
 					<p class="description"><?php _e('Change navigation link color'); ?></p>
 				</label>
 				</td>

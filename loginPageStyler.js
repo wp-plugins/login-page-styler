@@ -1,5 +1,5 @@
 
 jQuery(document).ready(function() {
-	jQuery('.color-picker').wpColorPicker();
+	jQuery('.color_picker').wpColorPicker();
 });
 
