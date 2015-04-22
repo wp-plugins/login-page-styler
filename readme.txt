@@ -69,11 +69,12 @@ There are no FAQ just yet
 
 == Screenshots ==
 1. New look for Wp login page with login page styler,
-For more screenshots visit: <a href="http://web-settler.com/login-page-styler/">Screenshots</a>.
+For more screenshots visit: <a href="http://web-settler.com/login-page-styler/">Screenshots</a>
 
-2.Login page customized in a new style .
+2. Detailed info on Login page customization 
 
-3.Anpther new look for login page .
+3. Settings page of login page styler 
+
 == Changelog ==
 Not yet.
 
