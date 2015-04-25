@@ -174,8 +174,8 @@ function wp_enqueue_color_picker( ) {
 			<tr valign='top'>
 				<th scope='row'><?php _e('Hide Lost Password Link');?></th>
 				<td><label for='lps_login_nav_link_hide'>
-				<input name="lps_login_nav_link_hide" type="checkbox" value= '1' <?php checked( 1,  get_option('lps_login_nav_link_hide') ); ?> disabled/>
-				<p class="description"> <?php _e('Check it to hide Navigation Link.<b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a></b>'); ?></p>
+				<input name="lps_login_nav_link_hide" type="checkbox" value= '1' <?php checked( 1,  get_option('lps_login_nav_link_hide') ); ?> />
+				<p class="description"> <?php _e('Check it to hide Navigation Link.'); ?></p>
 				</label>
 				</td>
 			</tr>
@@ -194,8 +194,8 @@ function wp_enqueue_color_picker( ) {
 			<tr valign="top">
 			  <th scope="row"><?php _e('Logo Link'); ?></th>
 			  <td><label for="lps_login_logo_link">
-				  <input type="text" id="lps_login_logo_link"  name="lps_login_logo_link" size="40" value="<?php echo get_option( 'lps_login_logo_link' ); ?>" disabled />
-				  <p class="description"><?php _e( 'Enter site url eg: www.google.com . <b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a> </b>'); ?></p>
+				  <input type="text" id="lps_login_logo_link"  name="lps_login_logo_link" size="40" value="<?php echo get_option( 'lps_login_logo_link' ); ?>"/>
+				  <p class="description"><?php _e( 'Enter site url eg: www.google.com ,It will redirect user when logo is clicked'); ?></p>
 				  </label>
 			 </td>
 		    </tr>
@@ -205,7 +205,7 @@ function wp_enqueue_color_picker( ) {
 			  <th scope="row"><?php _e('Logo Tittle'); ?></th>
 			  <td><label for="lps_login_logo_tittle">
 				  <input type="text" id="lps_login_logo_tittle"  name="lps_login_logo_tittle" value="<?php echo get_option( 'lps_login_logo_tittle' ); ?>" />
-				  <p class="description"><?php _e( 'Enter Tittle for logo eg:Powered by abcd '); ?></p>
+				  <p class="description"><?php _e( 'Enter Tittle for logo eg:Powered by abcd. '); ?></p>
 				  </label>
 			 </td>
 		    </tr>
@@ -244,9 +244,9 @@ function wp_enqueue_color_picker( ) {
 		    <tr valign="top">
 			  <th scope="row"><?php _e('Login Body Background Image'); ?></th>
 			  <td><label for="lps_body_bg_img">
-				  <input type="text" id="lps_body_bg_img"  name="lps_body_bg_img" size="40" value="<?php echo get_option( 'lps_body_bg_img' ); ?>" />
+				  <input type="text" id="lps_body_bg_img"  name="lps_body_bg_img" size="40" value="<?php echo get_option( 'lps_body_bg_img' ); ?>" disabled />
 				  <p class="description"><?php _e( 'Upload image to media library and,'); ?></p>
-				  <p class="description"><?php _e( 'Enter URL for background image here'); ?></p>
+				  <p class="description"><?php _e( 'Enter URL for background image here.<b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a> </b>'); ?></p>
 				  </label>
 			 </td>
 		    </tr>
@@ -346,8 +346,8 @@ function wp_enqueue_color_picker( ) {
 			<tr valign='top'>
 				<th scope='row'><?php _e('Login Button Border Radius');?></th>
 				<td><label for='lps_login_button_border_radius'>
-					<input type='text' id='lps_login_button_border_radius' name='lps_login_button_border_radius' value='<?php echo get_option('lps_login_button_border_radius' ); ; ?>' disabled/>
-					<p class="description"><?php _e('Add login button border radius with px eg:10px <b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a></b>'); ?></p>
+					<input type='text' id='lps_login_button_border_radius' name='lps_login_button_border_radius' value='<?php echo get_option('lps_login_button_border_radius' ); ; ?>' />
+					<p class="description"><?php _e('Add login button border radius with px eg:10px .'); ?></p>
 				</label>
 				</td>
 			</tr>
@@ -423,8 +423,8 @@ function wp_enqueue_color_picker( ) {
 			<tr valign='top'>
 				<th scope='row'><?php _e('Navigation Hover Links Color');?></th>
 				<td><label for='lps_login_nav_hover_color'>
-					<input disabled type='color' class='' id='lps_login_nav_hover_color' name='lps_login_nav_hover_color' value='<?php echo get_option('lps_login_nav_hover_color' ); ; ?>' />
-					<p class="description"><?php _e('Change navigiation link hover color .<b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a> </b>'); ?></p>
+					<input type='text' class='color_picker' id='lps_login_nav_hover_color' name='lps_login_nav_hover_color' value='<?php echo get_option('lps_login_nav_hover_color' ); ; ?>' />
+					<p class="description"><?php _e('Change navigiation link hover color '); ?></p>
 				</label>
 				</td>
 			</tr>
@@ -457,8 +457,8 @@ function wp_enqueue_color_picker( ) {
             <tr valign="top">
 				<th scope="row"><?php _e( 'Custom Css') ?></th>
 				<td><label for="lps_login_custom_css">
-					<textarea cols="80" rows="7" id="lps_login_custom_css"  name="lps_login_custom_css" disabled ><?php echo get_option( 'lps_login_custom_css' ); ?> </textarea>
-					<p class='description'> <?php _e('Add styling inside this text area <b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a></b>' );?></p>
+					<textarea cols="80" rows="7" id="lps_login_custom_css"  name="lps_login_custom_css"  ><?php echo get_option( 'lps_login_custom_css' ); ?> </textarea>
+					<p class='description'> <?php _e('Add styling inside this text area.' );?></p>
 					</label>
 				</td>
 			</tr>
