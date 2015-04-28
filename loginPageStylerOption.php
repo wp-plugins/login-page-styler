@@ -214,8 +214,9 @@ function wp_enqueue_color_picker( ) {
 		    <tr valign="top">
 			  <th scope="row"><?php _e('Login Logo'); ?></th>
 			  <td><label for="lps_login_logo">
-				  <input type="text" id="lps_login_logo"  name="lps_login_logo" size="40" value="<?php echo get_option( 'lps_login_logo' ); ?>" disabled/>
-				  <p class="description"><?php _e( 'Enter URL for logo .<b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a> </b>'); ?></p>
+				  <input type="text" id="lps_login_logo"  name="lps_login_logo" size="40" value="<?php echo get_option( 'lps_login_logo' ); ?>" />
+				  <p class="description"><?php _e( 'Upload logo image to media library , <b>logo must be 80px x 80px.</b>'); ?></p>
+				  <p class="description"><?php _e( 'Enter URL for logo. To use bigger logo buy <b>premium version </b>'); ?></p>
 				 </lable>
 			 </td>
 		    </tr>
