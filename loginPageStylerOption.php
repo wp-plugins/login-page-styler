@@ -88,6 +88,8 @@ function wp_enqueue_color_picker( ) {
  	padding-left: 15px;
  	
  }
+
+
  .wrap td
  {
  	padding-left: 40px;
@@ -119,6 +121,17 @@ function wp_enqueue_color_picker( ) {
 	border-radius: 10px;
 }
 
+.wrap #hed3
+{
+	background-color:#0074A2;
+	text-align: center;
+	height: auto;
+	margin: 0,0,0,0;
+	padding-top: 0.5px;
+	padding-bottom: 1px;
+
+}
+
 
  </style>
 
@@ -126,16 +139,15 @@ function wp_enqueue_color_picker( ) {
     <h1><?php _e('Login Page Styler')?></h1>
     <h3><strong><?php _e('This plugin is created to help customizing login page  easily  and efficiently.</br></br>
     This plugin helps you style  the appearance of your login page and makes it more stylish ')?></strong></h3></br>
-    <h3><strong><?php _e('To use full features of this plugin click  <a href=http://web-settler.com/login-page-styler/>Login Page Styler Premium</a>'); ?></strong></h3>
        <?php settings_errors(); ?>
        <form method="post" action="options.php" >
            <?php settings_fields('lps-settings-group');?>
-           <table class="form-table">
-		    
+           <div id="headings-data">
 
-		    <tr valign='top'>
-               <th scope="row"><?php _e('Login Page Settings');?></th>
-		    </tr>
+           	<div id="hed3"><h3><?php _e('Login Settings') ?></h3></div>
+
+           <table class="form-table">
+
 
 
 		    <tr valign='top'>
@@ -190,6 +202,14 @@ function wp_enqueue_color_picker( ) {
 				</td>
 			</tr>
 
+            
+             </table>
+		    </div>
+
+
+<div id="headings-data">
+           <div id="hed3"><h3><?php _e('Logo Settings') ?></h3></div>
+           <table class="form-table">
 
 			<tr valign="top">
 			  <th scope="row"><?php _e('Logo Link'); ?></th>
@@ -212,11 +232,10 @@ function wp_enqueue_color_picker( ) {
 
 
 		    <tr valign="top">
-			  <th scope="row"><?php _e('Login Logo'); ?></th>
+			  <th scope="row"><?php _e('Logo Image'); ?></th>
 			  <td><label for="lps_login_logo">
-				  <input type="text" id="lps_login_logo"  name="lps_login_logo" size="40" value="<?php echo get_option( 'lps_login_logo' ); ?>" />
-				  <p class="description"><?php _e( 'Upload logo image to media library , <b>logo must be 80px x 80px.</b>'); ?></p>
-				  <p class="description"><?php _e( 'Enter URL for logo. To use bigger logo buy <b>premium version </b>'); ?></p>
+				  <input type="text" id="lps_login_logo"  name="lps_login_logo" size="40" value="<?php echo get_option( 'lps_login_logo' ); ?>" disabled/>
+				  <p class="description"><?php _e( 'Enter URL for logo .<b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a> </b>'); ?></p>
 				 </lable>
 			 </td>
 		    </tr>
@@ -239,6 +258,23 @@ function wp_enqueue_color_picker( ) {
 				  <p class="description"><?php _e( 'Enter logo height with px eg:10px .<b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a> </b>'); ?></p>
 				 </lable>
 			 </td>0
+		    </tr>
+
+</table></div>
+
+<div id="headings-data">
+
+           <div id="hed3"><h3><?php _e('Login Background Settings') ?></h3></div>
+           <table class="form-table">
+
+
+		    <tr valign="top">
+			  <th scope="row"><?php _e( 'Background Color' ); ?></th>
+			  <td><label for="lps_login_background_color">
+				  <input type="text" class="color_picker" id="lps_login_background_color"  name="lps_login_background_color" value="<?php echo get_option( 'lps_login_background_color' ); ?>" />
+				  <p class="description"><?php _e( 'Change background color'); ?></p>
+				  </label>
+			 </td>
 		    </tr>
 
 
@@ -265,17 +301,37 @@ function wp_enqueue_color_picker( ) {
 		          </label>
 			 </td>
 		    </tr>
+<table></div>
 
 
-			
-		    <tr valign="top">
-			  <th scope="row"><?php _e( 'Background Color' ); ?></th>
-			  <td><label for="lps_login_background_color">
-				  <input type="text" class="color_picker" id="lps_login_background_color"  name="lps_login_background_color" value="<?php echo get_option( 'lps_login_background_color' ); ?>" />
-				  <p class="description"><?php _e( 'Change background color'); ?></p>
-				  </label>
-			 </td>
-		    </tr>
+<div id="headings-data">
+
+	        <div id="hed3"><h3><?php _e('Form Settings') ?></h3></div>
+
+           <table class="form-table">
+
+
+		    <tr valign='top'>
+				<th scope='row'><?php _e('Change Login Form Position');?></th>
+				<td><label for='lps_login_form_position'>
+				<select name="lps_login_form_position">
+					<option value='1' <?php selected( get_option('lps_login_form_position'),'1'); ?> >Middle-Center</option> 
+					<option disabled value='2' <?php selected( get_option('lps_login_form_position'),'2' ); ?> >Middle-Left</option>
+					<option disabled value='3' <?php selected( get_option('lps_login_form_position'),'3' ); ?> >Middle-Right</option>
+					<option value='4' <?php selected( get_option('lps_login_form_position'),'4' ); ?> >Top-Center</option>
+					<option disabled value='5' <?php selected( get_option('lps_login_form_position'),'5' ); ?> >Top-Left</option>
+					<option disabled value='6' <?php selected( get_option('lps_login_form_position'),'6' ); ?> >Top-Right</option>
+					<option value='7' <?php selected( get_option('lps_login_form_position'),'7' ); ?> >Bottom-Center</option>
+					<option disabled value='8' <?php selected( get_option('lps_login_form_position'),'8' ); ?> >Bottom-Left</option>
+					<option disabled value='9' <?php selected( get_option('lps_login_form_position'),'9' ); ?> >Bottom-Right</option>
+
+				</select>
+				<p class="description"> <?php _e('Select option to change Login Form Position'); ?></p>						
+				<p class="description"> <?php _e('While using bottom positioning, Hide error msg  on top of this plugin'); ?></p>
+				<p class="description"> <?php _e('Unlock rest of form positions with <b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a></b>'); ?></p>
+				</label>
+				</td>
+			</tr>
 
 
 
@@ -290,71 +346,23 @@ function wp_enqueue_color_picker( ) {
 
 
 			<tr>
-				<th scope='row'><?php _e('Login Form Background Color with Opacity');?></th>
+				<th scope='row'><?php _e('Login Form Color with Opacity');?></th>
 				<td><label for='lps_login_form_color_opacity'>
 					<input type='text' id='lps_login_form_color_opacity' name='lps_login_form_color_opacity' value='<?php echo get_option('lps_login_form_color_opacity' ); ; ?>' disabled />
 					<p class='description'> <?php _e( 'Add RGBA color value eg: 255 , 255 , 255 ,0.5 last value in decimal is the Opacity .<b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a> </b>'); ?></p>
 				</label>
 				</td>
 			</tr>
- 
 
 
 			<tr valign='top'>
-				<th scope='row'><?php _e('Login Form Border Radius');?></th>
-				<td><label for='lps_login_form_border_radius'>
-					<input type='text' id='lps_login_form_border_radius' name='lps_login_form_border_radius' value='<?php echo get_option('lps_login_form_border_radius' ); ; ?>'/>
-					<p class="description"><?php _e('Add login form border radius with px eg: 10px '); ?></p>
-				</label>
-				</td>
+				<th scope='row'><?php _e('Label Color');?></th>
+				<td><label for='lps_login_label_color'>
+					<input type='text' class='color_picker' id='lps_login_label_color' name='lps_login_label_color' value='<?php echo get_option('lps_login_label_color'); ?>' /> 
+					<p class='description'> <?php _e( 'Change form label(Username /Password) color'); ?></p>
+				    </label>
+			    </td>
 			</tr>
-
-
-			
-
-
-			<tr valign='top'>
-				<th scope='row'><?php _e('Login Form Input Field Border Radius');?></th>
-				<td><label for='lps_login_form_input_feild_border_radius'>
-					<input type='text' id='lps_login_form_input_feild_border_radius' name='lps_login_form_input_feild_border_radius' value='<?php echo get_option('lps_login_form_input_feild_border_radius' ); ;?>'disabled/>
-					<p class="description"><?php _e( 'Add login form input field border radius with px eg:10px . <b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a> </b> '); ?></p>
-				</label>
-				</td>
-			</tr>
-
-
-			<tr valign='top'>
-				<th scope='row'><?php _e('Login Form Input Field Border Color');?></th>
-				<td><label for='lps_login_form_input_feild_border_color'>
-					<input disabled type='color' class='' id='lps_login_form_input_feild_border_color' name='lps_login_form_input_feild_border_color' value='<?php echo get_option('lps_login_form_input_feild_border_color' ); ; ?>' disabled />
-					<p class="description"><?php _e('Change login form input field border color . <b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a> </b>'); ?></p>
-				</label>
-				</td>
-			</tr>
-
-
-			<tr>
-				<th scope='row'><?php _e('Login Form Input Field Color with Opacity');?></th>
-				<td><label for='lps_login_form_input_color_opacity'>
-					<input type='text' id='lps_login_form_input_color_opacity' name='lps_login_form_input_color_opacity' value='<?php echo get_option('lps_login_form_input_color_opacity' ); ; ?>'disabled/>
-					<p class='description'> <?php _e( 'Add RGBA color value eg: 255 , 255 , 255 ,0.5 last value in decimal is the Opacity .<b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a> </b>'); ?></p>
-				</label>
-				</td>
-			</tr>
-
-
-
-			<tr valign='top'>
-				<th scope='row'><?php _e('Login Button Border Radius');?></th>
-				<td><label for='lps_login_button_border_radius'>
-					<input type='text' id='lps_login_button_border_radius' name='lps_login_button_border_radius' value='<?php echo get_option('lps_login_button_border_radius' ); ; ?>' />
-					<p class="description"><?php _e('Add login button border radius with px eg:10px .'); ?></p>
-				</label>
-				</td>
-			</tr>
-
-
-
 
 			<tr valign='top'>
 				<th scope='row'><?php _e('Login Form Label Size');?></th>
@@ -376,14 +384,63 @@ function wp_enqueue_color_picker( ) {
 			</tr>
 
 
+
 			<tr valign='top'>
-				<th scope='row'><?php _e('Label Color');?></th>
-				<td><label for='lps_login_label_color'>
-					<input type='text' class='color_picker' id='lps_login_label_color' name='lps_login_label_color' value='<?php echo get_option('lps_login_label_color'); ?>' /> 
-					<p class='description'> <?php _e( 'Change form label color'); ?></p>
-				    </label>
-			    </td>
+				<th scope='row'><?php _e('Login Form Border Radius');?></th>
+				<td><label for='lps_login_form_border_radius'>
+					<input type='text' id='lps_login_form_border_radius' name='lps_login_form_border_radius' value='<?php echo get_option('lps_login_form_border_radius' ); ; ?>'/>
+					<p class="description"><?php _e('Add login form border radius with px eg: 10px '); ?></p>
+				</label>
+				</td>
 			</tr>
+
+
+			<tr valign='top'>
+				<th scope='row'><?php _e('Login Form Input Field Border Radius');?></th>
+				<td><label for='lps_login_form_input_feild_border_radius'>
+					<input type='text' id='lps_login_form_input_feild_border_radius' name='lps_login_form_input_feild_border_radius' value='<?php echo get_option('lps_login_form_input_feild_border_radius' ); ;?>'disabled/>
+					<p class="description"><?php _e( 'Add login form input field border radius with px eg:10px . <b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a> </b> '); ?></p>
+				</label>
+				</td>
+			</tr>
+
+
+			<tr>
+				<th scope='row'><?php _e('Login Form Input Field Color with Opacity');?></th>
+				<td><label for='lps_login_form_input_color_opacity'>
+					<input type='text' id='lps_login_form_input_color_opacity' name='lps_login_form_input_color_opacity' value='<?php echo get_option('lps_login_form_input_color_opacity' ); ; ?>'disabled/>
+					<p class='description'> <?php _e( 'Add RGBA color value eg: 255 , 255 , 255 ,0.5 last value in decimal is the Opacity .<b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a> </b>'); ?></p>
+				</label>
+				</td>
+			</tr>
+
+
+
+			<tr valign='top'>
+				<th scope='row'><?php _e('Login Form Input Field Border Color');?></th>
+				<td><label for='lps_login_form_input_feild_border_color'>
+					<input disabled type='color' class='' id='lps_login_form_input_feild_border_color' name='lps_login_form_input_feild_border_color' value='<?php echo get_option('lps_login_form_input_feild_border_color' ); ; ?>' disabled />
+					<p class="description"><?php _e('Change login form input field border color . <b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a> </b>'); ?></p>
+				</label>
+				</td>
+			</tr>
+
+</table></div>
+
+<div id="headings-data">
+
+	        <div id="hed3"><h3><?php _e('Button Settings') ?></h3></div>
+            <table class="form-table">
+
+			<tr valign='top'>
+				<th scope='row'><?php _e('Login Button Border Radius');?></th>
+				<td><label for='lps_login_button_border_radius'>
+					<input type='text' id='lps_login_button_border_radius' name='lps_login_button_border_radius' value='<?php echo get_option('lps_login_button_border_radius' ); ; ?>' />
+					<p class="description"><?php _e('Add login button border radius with px eg:10px .'); ?></p>
+				</label>
+				</td>
+			</tr>
+
 
  
             <tr valign='top'>
@@ -409,6 +466,12 @@ function wp_enqueue_color_picker( ) {
 			    </td>
 			</tr>
 
+</table></div>
+
+<div id="headings-data">
+
+	        <div id="hed3"><h3><?php _e('Lost password and Back to blog ') ?></h3></div>
+            <table class="form-table">
 
 
 			<tr vlaign='top'>
@@ -429,31 +492,11 @@ function wp_enqueue_color_picker( ) {
 				</label>
 				</td>
 			</tr>
+</table></div>
+<div id="headings-data">
 
-
-
-			<tr valign='top'>
-				<th scope='row'><?php _e('Change Login Form Position');?></th>
-				<td><label for='lps_login_form_position'>
-				<select name="lps_login_form_position">
-					<option value='1' <?php selected( get_option('lps_login_form_position'),'1'); ?> >Middle-Center</option> 
-					<option disabled value='2' <?php selected( get_option('lps_login_form_position'),'2' ); ?> >Middle-Left</option>
-					<option disabled value='3' <?php selected( get_option('lps_login_form_position'),'3' ); ?> >Middle-Right</option>
-					<option value='4' <?php selected( get_option('lps_login_form_position'),'4' ); ?> >Top-Center</option>
-					<option disabled value='5' <?php selected( get_option('lps_login_form_position'),'5' ); ?> >Top-Left</option>
-					<option disabled value='6' <?php selected( get_option('lps_login_form_position'),'6' ); ?> >Top-Right</option>
-					<option value='7' <?php selected( get_option('lps_login_form_position'),'7' ); ?> >Bottom-Center</option>
-					<option disabled value='8' <?php selected( get_option('lps_login_form_position'),'8' ); ?> >Bottom-Left</option>
-					<option disabled value='9' <?php selected( get_option('lps_login_form_position'),'9' ); ?> >Bottom-Right</option>
-
-				</select>
-				<p class="description"> <?php _e('Select option to change Login Form Position'); ?></p>
-				<p class="description"> <?php _e('Unlock rest of features with <b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a></b>'); ?></p>
-				</label>
-				</td>
-			</tr>
-
-
+	        <div id="hed3"><h3><?php _e('Custom CSS') ?></h3></div>
+            <table class="form-table">
 
             <tr valign="top">
 				<th scope="row"><?php _e( 'Custom Css') ?></th>
@@ -466,7 +509,7 @@ function wp_enqueue_color_picker( ) {
 
 
 
-           </table>
+           </table></div>
 
            <h3><strong><?php _e('To use full features of this plugin click  <a href=http://web-settler.com/login-page-styler/>Login Page Styler Premium</a>'); ?></strong></h3>
            <p class="submit">
