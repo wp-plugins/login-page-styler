@@ -137,8 +137,9 @@ function wp_enqueue_color_picker( ) {
 
 <div class='wrap'> 
     <h1><?php _e('Login Page Styler')?></h1>
-    <h3><strong><?php _e('This plugin is created to help customizing login page  easily  and efficiently.</br></br>
-    This plugin helps you style  the appearance of your login page and makes it more stylish ')?></strong></h3></br>
+    <h3><strong><?php _e('This plugin is created to help customizing login page with your own styling .<br></br>
+     Unlock rest of features here : <a href=http://web-settler.com/login-page-styler/>Login Page Styler Premium</a> <br></br>
+     Regular Price $17 on Sale($10) Limited Time Offer')?></strong></h3></br>
        <?php settings_errors(); ?>
        <form method="post" action="options.php" >
            <?php settings_fields('lps-settings-group');?>
@@ -186,8 +187,8 @@ function wp_enqueue_color_picker( ) {
 			<tr valign='top'>
 				<th scope='row'><?php _e('Hide Lost Password Link');?></th>
 				<td><label for='lps_login_nav_link_hide'>
-				<input name="lps_login_nav_link_hide" type="checkbox" value= '1' <?php checked( 1,  get_option('lps_login_nav_link_hide') ); ?> />
-				<p class="description"> <?php _e('Check it to hide Navigation Link.'); ?></p>
+				<input name="lps_login_nav_link_hide" type="checkbox" value= '1' <?php checked( 1,  get_option('lps_login_nav_link_hide') ); ?> disabled/>
+				<p class="description"> <?php _e('Check it to hide Navigation Link.<b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a> </b>'); ?></p>
 				</label>
 				</td>
 			</tr>
@@ -234,8 +235,8 @@ function wp_enqueue_color_picker( ) {
 		    <tr valign="top">
 			  <th scope="row"><?php _e('Logo Image'); ?></th>
 			  <td><label for="lps_login_logo">
-				  <input type="text" id="lps_login_logo"  name="lps_login_logo" size="40" value="<?php echo get_option( 'lps_login_logo' ); ?>" disabled/>
-				  <p class="description"><?php _e( 'Enter URL for logo .<b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a> </b>'); ?></p>
+				  <input type="text" id="lps_login_logo"  name="lps_login_logo" size="40" value="<?php echo get_option( 'lps_login_logo' ); ?>"/>
+				  <p class="description"><?php _e( ' Upload 80px X 80px logo image to media library Enter URL for logo here .<br></br>Use biger logo in <b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a> </b>'); ?></p>
 				 </lable>
 			 </td>
 		    </tr>
