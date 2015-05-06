@@ -401,14 +401,14 @@ function wp_enqueue_color_picker( ) {
 			  	<label for="lps_login_form_label_font">
 				  <select name='lps_login_form_label_font'>
 					     <option value='Arial'           <?php selected( get_option('lps_login_form_label_font'),'Arial'); ?>   >      Arial</option>
-					     <option value='Bedrock'         <?php selected( get_option('lps_login_form_label_font'),'Bedrock'); ?> >      Bedrock</option>
-                         <option value='Comic Sans MS '  <?php selected( get_option('lps_login_form_label_font'),'Comic Sans MS '); ?>>Comic Sans MS</option>
-                         <option value='Courier New'     <?php selected( get_option('lps_login_form_label_font'),'Courier New'); ?> >  Courier New</option>
-                         <option value='Georgia'         <?php selected( get_option('lps_login_form_label_font'),'Georgia'); ?> >      Georgia</option>
-                         <option value='Trebuchet MS'    <?php selected( get_option('lps_login_form_label_font'),'Trebuchet MS'); ?> > Trebuchet MS</option>
-                         <option value='Verdana'         <?php selected( get_option('lps_login_form_label_font'),'Verdana'); ?> >      Verdana</option>
-                         <option value='Times New Roman' <?php selected( get_option('lps_login_form_label_font'),'Times New Roman');?>>Times New Roman</option>
-                         <option value='Lucida Console'  <?php selected( get_option('lps_login_form_label_font'),'Lucida Console'); ?>>Lucida</option>
+					     <option disabled value='Bedrock'         <?php selected( get_option('lps_login_form_label_font'),'Bedrock'); ?> >      Bedrock</option>
+                         <option disabled value='Comic Sans MS '  <?php selected( get_option('lps_login_form_label_font'),'Comic Sans MS '); ?>>Comic Sans MS</option>
+                         <option disabled value='Courier New'     <?php selected( get_option('lps_login_form_label_font'),'Courier New'); ?> >  Courier New</option>
+                         <option disabled value='Georgia'         <?php selected( get_option('lps_login_form_label_font'),'Georgia'); ?> >      Georgia</option>
+                         <option disabled value='Trebuchet MS'    <?php selected( get_option('lps_login_form_label_font'),'Trebuchet MS'); ?> > Trebuchet MS</option>
+                         <option disabled value='Verdana'         <?php selected( get_option('lps_login_form_label_font'),'Verdana'); ?> >      Verdana</option>
+                         <option disabled value='Times New Roman' <?php selected( get_option('lps_login_form_label_font'),'Times New Roman');?>>Times New Roman</option>
+                         <option disabled value='Lucida Console'  <?php selected( get_option('lps_login_form_label_font'),'Lucida Console'); ?>>Lucida</option>
                          <option value='WildWest'        <?php selected( get_option('lps_login_form_label_font'),'WildWest'); ?> >     WildWest</option>
 
 				  </select>
@@ -439,12 +439,12 @@ function wp_enqueue_color_picker( ) {
 			  	<label for="lps_login_form_border_style">
 				  <select name='lps_login_form_border_style'>
 					     <option value='none'   <?php selected( get_option('lps_login_form_border_style'),'none'); ?>   >None</option>
-                         <option value='solid'  <?php selected( get_option('lps_login_form_border_style'),'solid'); ?>  >Solid</option>
+                         <option disabled value='solid'  <?php selected( get_option('lps_login_form_border_style'),'solid'); ?>  >Solid</option>
                          <option value='dashed' <?php selected( get_option('lps_login_form_border_style'),'dashed'); ?> >Dashed</option>
-                         <option value='dotted' <?php selected( get_option('lps_login_form_border_style'),'dotted'); ?> >Dotted</option>
-                         <option value='double' <?php selected( get_option('lps_login_form_border_style'),'double'); ?> >Double</option>
+                         <option disabled value='dotted' <?php selected( get_option('lps_login_form_border_style'),'dotted'); ?> >Dotted</option>
+                         <option disabled value='double' <?php selected( get_option('lps_login_form_border_style'),'double'); ?> >Double</option>
 				  </select>
-				  <p class="description"><?php _e('Select login form border style');?></p>
+				  <p class="description"><?php _e('Select login form border style, <b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a> </b>');?></p>
 		          </label>
 			 </td>
 		    </tr>
@@ -453,7 +453,7 @@ function wp_enqueue_color_picker( ) {
 		    <tr valign='top'>
 				<th scope='row'><?php _e('Login Form Border Color');?></th>
 				<td><label for='lps_login_form_border_color'>
-					<input type='text' class='color_picker' id='lps_login_form_border_color' name='lps_login_form_border_color' value='<?php echo get_option('lps_login_form_border_color' ); ; ?>' />
+					<input type='color' class='' disabled id='lps_login_form_border_color' name='lps_login_form_border_color' value='<?php echo get_option('lps_login_form_border_color' ); ; ?>' />
 					<p class="description"><?php _e('Change login form  border color . <b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a> </b>'); ?></p>
 				</label>
 				</td>
@@ -482,15 +482,25 @@ function wp_enqueue_color_picker( ) {
 			  	<label for="lps_login_form_input_border_style">
 				  <select name='lps_login_form_input_border_style'>
 					     <option value='none'   <?php selected( get_option('lps_login_form_input_border_style'),'none'); ?>   >None</option>
-                         <option value='solid'  <?php selected( get_option('lps_login_form_input_border_style'),'solid'); ?>  >Solid</option>
-                         <option value='dashed' <?php selected( get_option('lps_login_form_input_border_style'),'dashed'); ?> >Dashed</option>
+                         <option disabled value='solid'  <?php selected( get_option('lps_login_form_input_border_style'),'solid'); ?>  >Solid</option>
+                         <option disabled value='dashed' <?php selected( get_option('lps_login_form_input_border_style'),'dashed'); ?> >Dashed</option>
                          <option value='dotted' <?php selected( get_option('lps_login_form_input_border_style'),'dotted'); ?> >Dotted</option>
-                         <option value='double' <?php selected( get_option('lps_login_form_input_border_style'),'double'); ?> >Double</option>
+                         <option disabled value='double' <?php selected( get_option('lps_login_form_input_border_style'),'double'); ?> >Double</option>
 				  </select>
-				  <p class="description"><?php _e('Select login form input field border style');?></p>
+				  <p class="description"><?php _e('Select login form input field border style, <b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a> </b>');?></p>
 		          </label>
 			 </td>
 		    </tr>
+
+
+		    <tr valign='top'>
+				<th scope='row'><?php _e('Login Form Input Field Border Color');?></th>
+				<td><label for='lps_login_form_input_feild_border_color'>
+					<input disabled type='color' class='' id='lps_login_form_input_feild_border_color' name='lps_login_form_input_feild_border_color' value='<?php echo get_option('lps_login_form_input_feild_border_color' ); ; ?>' disabled />
+					<p class="description"><?php _e('Change login form input field border color . <b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a> </b>'); ?></p>
+				</label>
+				</td>
+			</tr>
 
 
 
@@ -513,16 +523,6 @@ function wp_enqueue_color_picker( ) {
 				</td>
 			</tr>
 
-
-
-			<tr valign='top'>
-				<th scope='row'><?php _e('Login Form Input Field Border Color');?></th>
-				<td><label for='lps_login_form_input_feild_border_color'>
-					<input disabled type='color' class='' id='lps_login_form_input_feild_border_color' name='lps_login_form_input_feild_border_color' value='<?php echo get_option('lps_login_form_input_feild_border_color' ); ; ?>' disabled />
-					<p class="description"><?php _e('Change login form input field border color . <b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a> </b>'); ?></p>
-				</label>
-				</td>
-			</tr>
 
 </table></div>
 
