@@ -3,7 +3,7 @@
  *Plugin Name: Login Page Styler
  *Plugin URI:http://web-settler.com/login-page-styler/
  *Description: This plugin allows you to customize the appearance of the WordPress Login Screen as you like to see.
- *Version: 1.0
+ *Version: 2.1
  *Author: Zia Imtiaz
  *Author URI:http://web-settler.com/login-page-styler/
  *License: GPLv2
