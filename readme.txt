@@ -94,7 +94,19 @@ For more screenshots visit: <a href="http://web-settler.com/login-page-styler/">
 3. Settings page of login page styler 
 
 == Changelog ==
-Not yet.
+Version 2.1 released.Added New Features
+
+* Logo upload button.
+* Login Body background image upload button.
+* Login Form background image upload button.
+* Login Form Label fonts.
+* Login Form border size.
+* Login Form border color.
+* Login Form border style.
+* Login Form input field border size.
+* Login Form input field border color.
+* Login Form input field border color.
+* Login Form input field border style.
 
 == Upgrade Notice ==
-There is no need to upgrade just yet.
+Upgrade to Version 2.1.
