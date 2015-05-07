@@ -147,8 +147,7 @@ function wp_enqueue_color_picker( ) {
 <div class='wrap'> 
     <h1><?php _e('Login Page Styler')?></h1>
     <h3><strong><?php _e('This plugin is created to help customizing login page with your own styling .<br></br>
-     Unlock rest of features here : <a href=http://web-settler.com/login-page-styler/>Login Page Styler Premium</a> <br></br>
-     Regular Price $20 On Sale($13) Limited Time Offer')?></strong></h3></br>
+     Unlock rest of features here : <a href=http://web-settler.com/login-page-styler/>Login Page Styler Premium</a>')?></strong></h3></br>
        <?php settings_errors(); ?>
        <form method="post" action="options.php" >
            <?php settings_fields('lps-settings-group');?>
@@ -558,7 +557,7 @@ function wp_enqueue_color_picker( ) {
 				<th scope='row'><?php _e('Login Button Color Hover');?></th>
 				<td><label for='lps_login_button_color_hover'>
 					<input type='color' class='' id='lps_login_button_color_hover' name='lps_login_button_color_hover' value='<?php echo get_option('lps_login_button_color_hover'); ?>' disabled/> 
-					<p class='description'> <?php _e( 'Change login button color'); ?></p></br>
+					<p class='description'> <?php _e( 'Change login button color hover,<b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a></b>'); ?></p></br>
 					<p class='description'><?php _e('Login Button Border Color Hover. <b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a></b>');?></p><input type='color' class='' id='lps_login_button_border_color_hover' name='lps_login_button_border_color_hover' value='<?php echo get_option('lps_login_button_border_color_hover'); ?>' disabled /></br></br>
 					<p class='description'><?php _e('Login Button Text Color Hover. <b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a></b>');?></p><input type='color' class='' id='lps_login_button_text_color_hover' name='lps_login_button_text_color_hover' value='<?php echo get_option('lps_login_button_text_color_hover'); ?>' disabled />
 				    </label>
