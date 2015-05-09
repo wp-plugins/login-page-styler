@@ -380,8 +380,8 @@ function wp_enqueue_color_picker( ) {
 			<tr valign='top'>
 				<th scope='row'><?php _e('Label Color');?></th>
 				<td><label for='lps_login_label_color'>
-					<input type='text' class='color_picker' id='lps_login_label_color' name='lps_login_label_color' value='<?php echo get_option('lps_login_label_color'); ?>' /> 
-					<p class='description'> <?php _e( 'Change form label(Username /Password) color'); ?></p>
+					<input type='color' class='' id='lps_login_label_color' name='lps_login_label_color' value='<?php echo get_option('lps_login_label_color'); ?>' disabled /> 
+					<p class='description'> <?php _e( 'Change form label(Username /Password) color .<b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a> </b>'); ?></p>
 				    </label>
 			    </td>
 			</tr>
