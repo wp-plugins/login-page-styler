@@ -149,7 +149,8 @@ function wp_enqueue_color_picker( ) {
     <h3><strong><?php _e('This plugin is created to help customizing login page with your own styling .<br></br>
      Unlock rest of features here : <a href=http://web-settler.com/login-page-styler/>Login Page Styler Premium</a> <br></br>
      Need Help Click : <a href="http://web-settler.com/login-page-styler-guide/" > Step By Step Guide</a>
-     ')?></strong></h3></br>
+     ')?></strong></h3><br></br>
+     <h3><strong><?php _e('If you want us to style your login page  Mail Us : ziaimtiaz21@gmail.com '); ?></strong></h3>
        <?php settings_errors(); ?>
        <form method="post" action="options.php" >
            <?php settings_fields('lps-settings-group');?>
@@ -614,6 +615,7 @@ function wp_enqueue_color_picker( ) {
            </table></div>
 
            <h3><strong><?php _e('To use full features of this plugin click  <a href=http://web-settler.com/login-page-styler/>Login Page Styler Premium</a>'); ?></strong></h3>
+           <h3><strong><?php _e('If you want us to style your login page  Mail Us : ziaimtiaz21@gmail.com '); ?></strong></h3>
            <p class="submit">
 			<input type="submit" class="button-primary" value="<?php _e( 'Save Changes' ); ?>" />
 		</p>
