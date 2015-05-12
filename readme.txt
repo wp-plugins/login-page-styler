@@ -29,8 +29,15 @@ You can chage  the entire look of wordpress login page again and again whenever 
 With Login Page styler you can change logo,background image,navigation links,error message  and more.
 every single thing on Wordpress login page can be customized  just think about it and its done  with login page styler
 
-<strong>Version 2.1</strong>
+<strong>Version 3.1.5 Released</strong>
+<strong>Added New Features</strong>
+* Slide value selector for text size ,border size ,border style.
+* Naigation link hover color.
+* Naigation link text size.
+* More font Style for login form.
 
+
+<strong>Version 2.1</strong>
 <strong>Added New Features</strong>
 
 * Logo upload button.
