@@ -31,6 +31,7 @@ every single thing on Wordpress login page can be customized  just think about i
 
 <strong>Version 3.1.5 Released</strong>
 <strong>Added New Features</strong>
+
 * Slide value selector for text size ,border size ,border style.
 * Naigation link hover color.
 * Naigation link text size.
