@@ -268,7 +268,7 @@ function wp_enqueue_color_picker( ) {
 
 
 		    <tr valign="top">
-			  <th scope="row"><?php _e('Logo Tittle'); ?></th>
+			  <th scope="row"><?php _e('Logo Title'); ?></th>
 			  <td><label for="lps_login_logo_tittle">
 				  <input type="text" id="lps_login_logo_tittle"  name="lps_login_logo_tittle" value="<?php echo get_option( 'lps_login_logo_tittle' ); ?>" />
 				  <p class="description"><?php _e( 'Enter Tittle for logo eg:Powered by abcd. '); ?></p>
