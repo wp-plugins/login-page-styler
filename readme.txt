@@ -19,7 +19,7 @@ Customize your login page matching your theme or any other style,Your registrati
 Login page styler helps you customize your wordpress login page  easily with  few clicks and  can change the   entire look of your login page . 
 This plugin will not make your wordpress slow .</br></br>
 
-<strong>With login page styler you can hide login error message  which makes it more  difficult for hackers to hack your wordpress login password,This is real simple and very effective approch
+<strong>With login page styler you can hide login page error message  which makes it more  difficult for hackers to hack your wordpress login password,This is real simple and very effective approch
 to save your Wordpress login details.</br></br>
 
 You can theme your wordpress login page  with your own styling,custom logo , background image ,form color , form position  with login page stylers setthings page its very easy to use  and design your wordpress login page with few clicks,
