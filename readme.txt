@@ -8,8 +8,7 @@ Stable tag:3.1.5
 License:GPLv2 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Login Page Styler helps you customize Wordpress login page  easily according to your theme or any other style . 
-
+Login Page Styler helps you customize Wordpress login page  easily according to your theme or any other style .
 
 ==Description==
 
