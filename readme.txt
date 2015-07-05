@@ -8,10 +8,10 @@ Stable tag:3.1.5
 License:GPLv2 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Login Page Styler helps you customize Wordpress login page  easily according to your theme or any other style .
+Customize Wordpress login page  easily according to your theme or any other style with Login Page Styler.
 
 ==Description==
-
+Create your own custom login page with login page styler ,Easy to use no coding skills required for customization.Create your own beautiful custom login styles and make your login page unique.
 Customize your login page matching your theme or any other style,Your registration, log in, and password recovery pages will all match the rest of your website and logo link can be changed to your website link through Login Page Styler.
 
 Login page styler helps you customize your wordpress login page  easily with  few clicks and  can change the   entire look of your login page . 
