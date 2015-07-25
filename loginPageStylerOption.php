@@ -184,6 +184,7 @@ function wp_enqueue_color_picker( ) {
     <h1><?php _e('Login Page Styler')?></h1>
     <h3><strong><?php _e('This plugin is created to help customizing login page with your own styling <br></br>
      Unlock rest of features here : <a href=http://web-settler.com/login-page-styler/>Login Page Styler Premium</a>')?></strong></h3></br>
+     <h3><strong><?php _e('Try my other plugin ,Click Here :<a href="https://wordpress.org/plugins/scrollbar-designer/" target="_blank">Scrollbar Designer</a>')?> </strong></h3></br>
      <h3><strong><?php _e('If you want us to Style your login page Mail us : ziaimtiaz21@gmail.com'); ?></strong></h3>
        <?php settings_errors(); ?>
        <form method="post" action="options.php" >

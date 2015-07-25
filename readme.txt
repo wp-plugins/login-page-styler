@@ -13,14 +13,52 @@ Customize Wordpress login page  easily according to your theme or any other cust
 ==Description==
 Create your own custom login page with login page styler ,Easy to use no coding skills required for customization.Create your own beautiful custom login styles and make your login page unique.
 Customize your login page matching your theme or any other style,Your registration, log in, and password recovery pages will all match the rest of your website and logo link can be changed to your website link through Login Page Styler.
-
-With login page styler you can hide login page error message  which makes it more  difficult for hackers to hack your wordpress login password,This is real simple and very effective approch
-to save your Wordpress login details.</br></br>
-
-You can theme your wordpress login page  with your own styling,custom logo , background image ,form color , form position  with login page stylers setthings page its very easy to use  and design your wordpress login page with few clicks,
-You can chage  the entire look of wordpress login page again and again whenever you want a new look for your login page.</br></br>
+</br></br>
 
  
+
+
+
+<strong>Features</strong>
+
+* Plugin on/off.
+* Change Logo Title.
+* Hide Logo.
+* Hide Error Message. 
+* Hide Lost Password Link.
+* Hide Back to Link.
+* Change Logo Width.
+* Change Logo Height.
+* Change Logo Link.
+* Form Position.
+* Form Label Font Size.
+* Form Label Color.
+* Form Label Font Style.
+* Logo upload button.
+* Login Body background image upload button.
+* Login Form Background color.
+* Login Form Label fonts.
+* Login Form border width.
+* Login Form border color.
+* Login Form border style.
+* Login Form textbox border size.
+* Login Form textbox border color.
+* Login Form textbox border style.
+* Login Form textbox border radius.
+* Login Form Button border size.
+* Login Form Button border color.
+* Login Form Button border color.
+* Login Form Button border style.
+* Login Form Button border radius.
+* Login Form Button hover border size.
+* Login Form Button hover border color.
+* Login Form Button hover border color.
+* Login Form Button hover border style.
+* Login Form Navigation Links color.
+* Login Form Navigation Links hover color.
+* Login Form Navigation Links Size.
+* And so more coming soon.
+
 <strong>Version 3.1.5 Released</strong>
 <strong>Added New Features</strong>
 
@@ -46,35 +84,6 @@ You can chage  the entire look of wordpress login page again and again whenever 
 * Login Form input field border style.
 
 
-
-<strong>Plugin Features</strong>
-
-* On/Off switch.
-* Hide logo.
-* Change logo.
-* Logo width height.
-* Hide error msg.
-* Hide navigation links.
-* Change label size.
-* Change label color.
-* Change remember me size .
-* Change login button color.
-* Change login button text color.
-* Change login button border radius.
-* Change login button border color.
-* Change login form border radius.
-* Change logo tittle.
-* Change logo link.
-* Login input field border color.
-* Login input field border radius.
-* Login form opacity.
-* Form position.
-* Login form border radius.
-* Links color.
-* Custom css field.
-* And more.
-
-
 <strong> <a href='http://web-settler.com/login-page-styler/'>Premium version</a> </strong>
 * Supports full features.
 
@@ -86,14 +95,27 @@ You can chage  the entire look of wordpress login page again and again whenever 
 There are no FAQ just yet
 
 == Screenshots ==
-1. New look for Wp login page with login page styler,
-For more screenshots visit: <a href="http://web-settler.com/login-page-styler/">Screenshots</a>
+1. New look for Wp login page with login page styler
 
 2. Detailed info on Login page customization 
 
 3. Customized look of wp-login page 
 
-4. Settings page of login page styler 
+4. Customized look of wp-login page
+
+5. Customized look of wp-login page
+
+6. Customized look of wp-login page
+
+7. Customized look of wp-login page
+
+8. Customized look of wp-login page
+
+9. Customized look of wp-login page
+
+10. Customized look of wp-login page
+
+11. Settings page 
 
 == Changelog ==
 Version 2.1 released.Added New Features
