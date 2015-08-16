@@ -70,52 +70,172 @@ function wp_enqueue_color_picker( ) {
  function lps_settings_page(){?>
  <style type="text/css">
 
- .wrap
- {
- 	background-color: #222222;
- 	margin: 0 0 0 0;
- 	padding: 0 0 0 0;
- 	font-color:white;
- 	font-family: Comic Sans MS;
- }
- .wrap h1
- {  text-align: center;
- 	padding-top: 20px;
- 	font-size: 4em;
- 	color:#F1F1F1;
- }
- .wrap h3
- {
- 	font-size: 1.7em;
- 	color:#F1F1F1;
- 	padding-top: 5px;
- 	padding-left: 10px;
- }
+
+    .onoffswitch {
+        position: relative; width: 90px;
+        -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    }
+   td .onoffswitch-checkbox {
+        display: none;
+    }
+    .onoffswitch-label {
+        display: block; overflow: hidden; cursor: pointer;
+        border: 2px solid #999999; border-radius: 20px;
+    }
+    .onoffswitch-inner {
+        display: block; width: 200%; margin-left: -100%;
+        transition: margin 0.1s ease-in 0s;
+    }
+    .onoffswitch-inner:before, .onoffswitch-inner:after {
+        display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+        font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+        box-sizing: border-box;
+    }
+    .onoffswitch-inner:before {
+        content: "Yes";
+        padding-left: 10px;
+        background-color: #34A7C1; color: #FFFFFF;
+    }
+    .onoffswitch-inner:after {
+        content: "No";
+        padding-right: 10px;
+        background-color: #EEEEEE; color: #999999;
+        text-align: right;
+    }
+    .onoffswitch-switch {
+        display: block; width: 18px; margin: 6px;
+        background: #FFFFFF;
+        position: absolute; top: 0; bottom: 0;
+        right: 56px;
+        border: 2px solid #999999; border-radius: 20px;
+        transition: all 0.1s ease-in 0s; 
+    }
+    .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+        margin-left: 0;
+    }
+    .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+        right: 0px; 
+    }
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat-Regular'), url(http://fonts.gstatic.com/s/montserrat/v6/zhcz-_WihjSQC0oHJ9TCYPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2'), url(http://fonts.gstatic.com/s/montserrat/v6/zhcz-_WihjSQC0oHJ9TCYBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2'), url(http://fonts.gstatic.com/s/lato/v11/9k-RPmcnxYEPm8CNFsH2gg.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(http://fonts.gstatic.com/s/lato/v11/H2DMvhDLycM56KNuAtbJYA.woff2) format('woff2'), url(http://fonts.gstatic.com/s/lato/v11/wkfQbvfT_02e2IWO3yYueQ.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(http://fonts.gstatic.com/s/lato/v11/PLygLKRVCQnA5fhu3qk5fQ.woff2) format('woff2'), url(http://fonts.gstatic.com/s/lato/v11/oUan5VrEkpzIazlUe5ieaA.woff) format('woff');
+}
+
+* {
+  -webkit-transition: all 0.4s ease-in-out;
+-moz-transition: all 0.4s ease-in-out;
+-ms-transition: all 0.4s ease-in-out;
+-o-transition: all 0.4s ease-in-out;
+transition: all 0.4s ease-in-out;
+}
+
+b, strong {
+    color: #666;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.wrap {
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.1);
+    font-family: Lato;
+    margin: 4% auto;
+    overflow: hidden;
+    padding: 40px 6%;
+    width: 80%;
+}
+
+.wrap p{
+  font-size: 19px;
+  color:#777;
+}
+
+.wrap h1 {
+    background: #ffba00 none repeat scroll 0 0;
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    margin: -40px -8% 40px;
+    padding: 40px;
+    text-align: center;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.wrap h3 {
+    color: #666;
+    font-size: 20px;
+    text-align: left;
+}
+
+
+.wrap #hed3 {
+    background-color: #0074a2;
+    height: auto;
+    margin: 40px -8%;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+#hed3 h3 {
+    color: #fff;
+    font-family: Montserrat,sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+
  .wrap th
  {
- 	color :#F1F1F1;
- 	font-size: 1.2em;
- 	padding-left: 15px;
- 	
+  color :#666;
+  font-size: 1.2em;
+  padding-left: 15px;
+
  }
 
 
  .wrap td
  {
- 	padding-left: 40px;
+  padding-left: 40px;
  }
 .wrap h3 a ,p a
 {
-	text-decoration: none;
+  text-decoration: none;
 }
 .wrap td p
 {
-	color:#F1F1F1;
-	font-size:1.2em;
+  color:#666;
+  font-size:1.2em;
 }
 .wrap p.submit
 {
-	text-align: center;
+  text-align: center;
 }
 .wrap input[type=checkbox] {
   /* All browsers except webkit*/
@@ -127,16 +247,16 @@ function wp_enqueue_color_picker( ) {
 
 
 .wrap input[type=number]{
-	width:50px;
+  width:50px;
 }
 .wrap input[type=range]::-webkit-slider-thumb {
-	-webkit-appearance: none;
-	background-color: #ecf0f1;
-	border: 1px solid #bdc3c7;
-	width: 25px;
-	height: 25px;
-	border-radius: 10px;
-	cursor: pointer;
+  -webkit-appearance: none;
+  background-color: #ecf0f1;
+  border: 1px solid #bdc3c7;
+  width: 25px;
+  height: 25px;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 
@@ -160,21 +280,28 @@ function wp_enqueue_color_picker( ) {
 .wrap input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none;}
 
 .wrap input.button-primary
-{
-	width:10em;
-	height:3em;
-	border-radius: 10px;
+.wrap input.button-primary {
+    border-radius: 4px;
+    height: 4em;
+    width: 25%;
 }
 
-.wrap #hed3
-{
-	background-color:#0074A2;
-	text-align: center;
-	height: auto;
-	margin: 0,0,0,0;
-	padding-top: 0.5px;
-	padding-bottom: 1px;
 
+.wp-core-ui .button-primary {
+    background: #00a0d2 none repeat scroll 0 0 !important;
+    border: medium none !important;
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.1) !important;
+    color: #fff !important;
+    font-family: "Montserrat",sans-serif !important;
+    font-size: 18px !important;
+    height: 4rem;
+    text-decoration: none !important;
+    text-transform: uppercase !important;
+    width: 25% !important;
+}
+
+.wp-core-ui .button-primary.focus, .wp-core-ui .button-primary.hover, .wp-core-ui .button-primary:focus, .wp-core-ui .button-primary:hover {
+  background:#ffba00 !important;
 }
 
 
@@ -182,8 +309,7 @@ function wp_enqueue_color_picker( ) {
 
 <div class='wrap'> 
     <h1><?php _e('Login Page Styler')?></h1>
-    <h3><strong><?php _e('This plugin is created to help customizing login page with your own styling <br></br>
-     Unlock rest of features here : <a href=http://web-settler.com/login-page-styler/>Login Page Styler Premium</a>')?></strong></h3></br>
+    <h3><strong><?php _e('In free version you can use 24 features and in Premium version you can use 42 features </br> Unlock rest of  features here : <a href=http://web-settler.com/login-page-styler/>Login Page Styler Premium</a>')?></strong></h3></br>
      <h3><strong><?php _e('Try my other plugin ,Click Here :<a href="https://wordpress.org/plugins/scrollbar-designer/" target="_blank">Scrollbar Designer</a>')?> </strong></h3></br>
      <h3><strong><?php _e('If you want us to Style your login page Mail us : ziaimtiaz21@gmail.com'); ?></strong></h3>
        <?php settings_errors(); ?>
@@ -198,56 +324,81 @@ function wp_enqueue_color_picker( ) {
 
 
 		    <tr valign='top'>
-				<th scope='row'><?php _e('On/Off plugin :');?></th>
-				<td><label for='lps_login_on_off'>
-				<input name="lps_login_on_off" type="checkbox" value= '1' <?php checked( 1,  get_option('lps_login_on_off') ); ?>  />
-				<p class="description"> <?php _e('Check it to turn plugin ON'); ?></p>
-				<p class="description"> <?php _e('UnCheck it to turn plugin OFF'); ?></p>
-				</label>
-				</td>
-			</tr>
-
-		    
-			
-			<tr valign='top'>
-				<th scope='row'><?php _e('Hide Login Logo');?></th>
-				<td><label for='lps_login_logo_hide'>
-				<input name="lps_login_logo_hide" type="checkbox" value= '1' <?php checked( 1,  get_option('lps_login_logo_hide') ); ?> />
-				<p class="description"> <?php _e('Check it to hide Login Logo'); ?></p>
-				</label>
-				</td>
-			</tr>
+        <th scope='row'><?php _e('Enable Plugin :');?></th>
+        <td>
+            <div class="onoffswitch">
+                     <input type="checkbox" name="lps_login_on_off" class="onoffswitch-checkbox"  id="myonoffswitch" value='1'<?php checked(1, get_option('lps_login_on_off')); ?> />
+                     <label class="onoffswitch-label" for="myonoffswitch">
+                     <span class="onoffswitch-inner"></span>
+                     <span class="onoffswitch-switch"></span>
+                     </label>
+                    </div>
 
 
-			<tr valign='top'>
-				<th scope='row'><?php _e('Hide Login Error Msg');?></th>
-				<td><label for='lps_login_logo_msg_hide'>
-				<input name="lps_login_logo_msg_hide" type="checkbox" value= '1' <?php checked( 1,  get_option('lps_login_logo_msg_hide') ); ?>disabled/>
-				<p class="description"> <?php _e('Check it to hide Login Error msg.<b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a> </b>'); ?></p>
-				</label>
-				</td>
-			</tr>
+        </td>
+      </tr>
+        
+      
+      <tr valign='top'>
+        <th scope='row'><?php _e('Hide Login Logo');?></th>
+        <td>
+            <div class="onoffswitch">
+                     <input type="checkbox" name="lps_login_logo_hide" class="onoffswitch-checkbox"  id="myonoffswitch2" value='1'<?php checked(1, get_option('lps_login_logo_hide')); ?> />
+                     <label class="onoffswitch-label" for="myonoffswitch2">
+                     <span class="onoffswitch-inner"></span>
+                     <span class="onoffswitch-switch"></span>
+                     </label>
+                    </div>
+
+
+        </td>
+      </tr>
+
+
+      <tr valign='top'>
+        <th scope='row'><?php _e('Hide Login Error Msg');?></th>
+        <td>
+            <div class="onoffswitch">
+                     <input type="checkbox" name="lps_login_logo_msg_hide" class="onoffswitch-checkbox"  id="myonoffswitch3" value='1'<?php checked(1, get_option('lps_login_logo_msg_hide')); ?> />
+                     <label class="onoffswitch-label" for="myonoffswitch3">
+                     <span class="onoffswitch-inner"></span>
+                     <span class="onoffswitch-switch"></span>
+                     </label>
+                    </div>
+
+
+        </td>
+      </tr>
 
 
 
-			<tr valign='top'>
-				<th scope='row'><?php _e('Hide Lost Password Link');?></th>
-				<td><label for='lps_login_nav_link_hide'>
-				<input name="lps_login_nav_link_hide" type="checkbox" value= '1' <?php checked( 1,  get_option('lps_login_nav_link_hide') ); ?> disabled/>
-				<p class="description"> <?php _e('Check it to hide Navigation Link.<b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a> </b>'); ?></p>
-				</label>
-				</td>
-			</tr>
+      <tr valign='top'>
+        <th scope='row'><?php _e('Hide Lost Password Link');?></th>
+        <td>
+            <div class="onoffswitch">
+                     <input type="checkbox" name="lps_login_nav_link_hide" class="onoffswitch-checkbox"  id="myonoffswitch4" value='1'<?php checked(1, get_option('lps_login_nav_link_hide')); ?> />
+                     <label class="onoffswitch-label" for="myonoffswitch4">
+                     <span class="onoffswitch-inner"></span>
+                     <span class="onoffswitch-switch"></span>
+                     </label>
+                    </div>
+
+        </td>
+      </tr>
 
 
-			<tr valign='top'>
-				<th scope='row'><?php _e('Hide Back to Blog Link');?></th>
-				<td><label for='lps_login_blog_link_hide'>
-				<input name="lps_login_blog_link_hide" type="checkbox" value= '1' <?php checked( 1,  get_option('lps_login_blog_link_hide') ); ?> />
-				<p class="description"> <?php _e('Check it to hide Back to Blog Link'); ?></p>
-				</label>
-				</td>
-			</tr>
+      <tr valign='top'>
+        <th scope='row'><?php _e('Hide Back to Blog Link');?></th>
+        <td>
+            <div class="onoffswitch">
+                     <input type="checkbox" name="lps_login_blog_link_hide" class="onoffswitch-checkbox"  id="myonoffswitch5" value='1'<?php checked(1, get_option('lps_login_blog_link_hide')); ?> />
+                     <label class="onoffswitch-label" for="myonoffswitch5">
+                     <span class="onoffswitch-inner"></span>
+                     <span class="onoffswitch-switch"></span>
+                     </label>
+                    </div>
+        </td>
+      </tr>
 
             
              </table>
@@ -305,7 +456,7 @@ function wp_enqueue_color_picker( ) {
 				  <input type='range'  id='lps_login_logo_height' name='lps_login_logo_height' min='0' disabled max='200' value='<?php echo get_option('lps_login_logo_height') ?>' oninput="this.form.amountInputH.value=this.value" /> <input type="number"  name="amountInputH" min="0" max="200" value='<?php echo get_option('lps_login_logo_height') ?>' size='4' oninput="this.form.lps_login_logo_height.value=this.value" disabled />
 				  <p class="description"><?php _e( 'Slide to select  logo height .<b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a> </b>'); ?></p>
 				 </lable>
-			 </td>0
+			 </td>
 		    </tr>
 
 </table></div>
@@ -331,7 +482,7 @@ function wp_enqueue_color_picker( ) {
 			  <td><label for="lps_body_bg_img">
 					<input id="image_location" type="text" name="lps_body_bg_img" value="<?php echo get_option('lps_body_bg_img') ?>" size="50" disabled/>
                     <input  class="onetarek-upload-button button" type="button" value="Upload Image" disabled />
-					<p class='description'><?php _e('Upload or Select  Background Image,<b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a></b>') ;?></p>') ;?></p>
+					<p class='description'><?php _e('Upload or Select  Background Image,<b>Premium Version <a href="http://web-settler.com/login-page-styler/">Unlock Here</a></b>') ;?></p>
 				</label>
 				</td>
 		    </tr>
