@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Customize Wordpress login page  easily according to your theme or any other custom style with Custom Login Page Styler.
 
 ==Description==
-Create your own custom login page with custom login page styler ,Easy to use no coding skills required for customization.
+Create your own custom login with custom login page styler ,Easy to use no coding skills required for customization.
 Create beautiful custom login page style and make your login page unique.</br>
 Customize your login page matching your theme,Your registration, log in, and password recovery pages will all match the rest of your website.
 </br>
@@ -24,7 +24,7 @@ Customize your login page matching your theme,Your registration, log in, and pas
 * Hide Logo.
 * Hide Error Message. 
 * Hide Lost Password Link.
-* Hide Back to Link.
+* Hide Back to blog Link.
 * Change Logo Width.
 * Change Logo Height.
 * Change Logo Link.
