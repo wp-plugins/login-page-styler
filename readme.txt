@@ -8,12 +8,12 @@ Stable tag:3.1.5
 License:GPLv2 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Custom Login Page Styler allows you to customize your login ,admin login,registration and lost password pages according to your theme or any other custom style with.
+Create your own custom login page with custom login page styler ,Easy to use no coding skills required for customization.
 
 ==Description==
 
 Create your own custom login page with custom login page styler ,Easy to use no coding skills required for customization.
-Create beautiful custom login page style and make your login page unique.</br>
+Create beautiful custom login page style and make your login page unique.<br></br>
 
 Customize your login page matching your theme,Your registration, log in, and password recovery pages will all match the rest of your website.
 </br>
