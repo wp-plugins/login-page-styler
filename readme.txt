@@ -13,7 +13,7 @@ Create your own custom login page with custom login page styler ,Easy to use no 
 ==Description==
 
 Create your own custom login page with custom login page styler ,Easy to use no coding skills required for customization.
-Create beautiful custom login page style and make your login page unique.<br></br>
+Create beautiful custom login page style and make your login page unique.<br>
 
 Customize your login page matching your theme,Your registration, log in, and password recovery pages will all match the rest of your website.
 </br>
