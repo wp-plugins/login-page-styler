@@ -18,6 +18,11 @@ Create beautiful custom login page style and make your login page unique.<br>
 Customize your login page matching your theme,Your registration, log in, and password recovery pages will all match the rest of your website.
 </br></br>
 
+You can use 24 features in free version and in premium version you can use all stated features.
+<strong> <a href='http://web-settler.com/login-page-styler/'>Premium version</a> </strong>
+* Supports full features.
+
+
 <strong>Features</strong>
 
 * Plugin on/off.
@@ -83,9 +88,6 @@ Customize your login page matching your theme,Your registration, log in, and pas
 * Login Form input field border color.
 * Login Form input field border style.
 
-
-<strong> <a href='http://web-settler.com/login-page-styler/'>Premium version</a> </strong>
-* Supports full features.
 
 == Installation ==
 * Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your WordPress installation and then activate the Plugin from Plugins page.
